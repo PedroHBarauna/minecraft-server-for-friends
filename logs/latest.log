@@ -1,0 +1,1533 @@
+[00:00:00] [ftbbackups2_Worker-1/INFO]: Attempting to create an automatic backup
+[00:00:00] [ftbbackups2_Worker-1/INFO]: Found world folder at C:\NoSync\AstraServer\.\world\.
+[00:00:00] [ftbbackups2_Worker-1/INFO]: Current world size: 14.4MB Current free space: 789.6GB
+[00:00:00] [ftbbackups2_Worker-1/INFO]: Setting world minecraft:overworld save state to true
+[00:00:00] [ftbbackups2_Worker-1/INFO]: Setting world ad_astra:glacio_orbit save state to true
+[00:00:00] [ftbbackups2_Worker-1/INFO]: Setting world minecraft:the_end save state to true
+[00:00:00] [ftbbackups2_Worker-1/INFO]: Setting world ad_astra:mercury save state to true
+[00:00:00] [ftbbackups2_Worker-1/INFO]: Setting world minecraft:the_nether save state to true
+[00:00:00] [ftbbackups2_Worker-1/INFO]: Setting world ad_astra:moon_orbit save state to true
+[00:00:00] [ftbbackups2_Worker-1/INFO]: Setting world ad_astra:moon save state to true
+[00:00:00] [ftbbackups2_Worker-1/INFO]: Setting world ae2:spatial_storage save state to true
+[00:00:00] [ftbbackups2_Worker-1/INFO]: Setting world ad_astra:mars save state to true
+[00:00:00] [ftbbackups2_Worker-1/INFO]: Setting world ad_astra:glacio save state to true
+[00:00:00] [ftbbackups2_Worker-1/INFO]: Setting world ad_astra:mars_orbit save state to true
+[00:00:00] [ftbbackups2_Worker-1/INFO]: Setting world ad_astra:mercury_orbit save state to true
+[00:00:00] [ftbbackups2_Worker-1/INFO]: Setting world ad_astra:earth_orbit save state to true
+[00:00:00] [ftbbackups2_Worker-1/INFO]: Setting world ad_astra:venus save state to true
+[00:00:00] [ftbbackups2_Worker-1/INFO]: Setting world ad_astra:venus_orbit save state to true
+[00:00:00] [FTB Backups backup thread 0/INFO]: Rendering region file -1 0
+[00:00:00] [FTB Backups backup thread 0/WARN]: Failed to load chunk ( 1.700E+1  4.000E+0)
+java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:244) ~[?:?]
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158) ~[?:?]
+	at java.io.DataInputStream.readFully(DataInputStream.java:201) ~[?:?]
+	at java.io.DataInputStream.readFully(DataInputStream.java:172) ~[?:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:310) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:269) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:256) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:269) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:269) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:269) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:269) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:176) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.renderRaw(RegionRenderer.java:118) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.render(RegionRenderer.java:61) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$WorldRegionFolder.render(RegionFolder.java:179) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$CachedRegionFolder.render(RegionFolder.java:467) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.createPreview(BackupHandler.java:150) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.lambda$createBackup$4(BackupHandler.java:262) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:00:00] [FTB Backups backup thread 0/WARN]: Failed to load chunk ( 2.100E+1  1.600E+1)
+java.lang.IllegalArgumentException: Unsupported compression type, must be between 0 and 2 (inclusive)
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:159) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:111) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.renderRaw(RegionRenderer.java:117) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.render(RegionRenderer.java:61) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$WorldRegionFolder.render(RegionFolder.java:179) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$CachedRegionFolder.render(RegionFolder.java:467) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.createPreview(BackupHandler.java:150) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.lambda$createBackup$4(BackupHandler.java:262) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:00:00] [FTB Backups backup thread 0/WARN]: Failed to load chunk ( 1.600E+1  3.000E+0)
+java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:244) ~[?:?]
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158) ~[?:?]
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:122) ~[?:?]
+	at java.io.DataInputStream.readShort(DataInputStream.java:318) ~[?:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:231) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:256) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:256) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:269) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:176) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.renderRaw(RegionRenderer.java:118) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.render(RegionRenderer.java:61) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$WorldRegionFolder.render(RegionFolder.java:179) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$CachedRegionFolder.render(RegionFolder.java:467) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.createPreview(BackupHandler.java:150) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.lambda$createBackup$4(BackupHandler.java:262) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:00:00] [FTB Backups backup thread 0/WARN]: Failed to load chunk ( 3.000E+1  1.600E+1)
+java.lang.IllegalArgumentException: Unsupported compression type, must be between 0 and 2 (inclusive)
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:159) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:111) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.renderRaw(RegionRenderer.java:117) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.render(RegionRenderer.java:61) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$WorldRegionFolder.render(RegionFolder.java:179) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$CachedRegionFolder.render(RegionFolder.java:467) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.createPreview(BackupHandler.java:150) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.lambda$createBackup$4(BackupHandler.java:262) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:00:01] [FTB Backups backup thread 0/WARN]: Failed to load chunk ( 2.300E+1  1.500E+1)
+java.lang.IllegalArgumentException: Unsupported compression type, must be between 0 and 2 (inclusive)
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:159) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:111) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.renderRaw(RegionRenderer.java:117) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.render(RegionRenderer.java:61) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$WorldRegionFolder.render(RegionFolder.java:179) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$CachedRegionFolder.render(RegionFolder.java:467) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.createPreview(BackupHandler.java:150) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.lambda$createBackup$4(BackupHandler.java:262) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:00:01] [FTB Backups backup thread 0/WARN]: Failed to load chunk ( 1.700E+1  1.300E+1)
+java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:244) ~[?:?]
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158) ~[?:?]
+	at java.io.DataInputStream.readFully(DataInputStream.java:201) ~[?:?]
+	at java.io.DataInputStream.readFully(DataInputStream.java:172) ~[?:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:310) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:269) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:269) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:256) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:269) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:176) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.renderRaw(RegionRenderer.java:118) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.render(RegionRenderer.java:61) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$WorldRegionFolder.render(RegionFolder.java:179) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$CachedRegionFolder.render(RegionFolder.java:467) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.createPreview(BackupHandler.java:150) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.lambda$createBackup$4(BackupHandler.java:262) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:00:01] [FTB Backups backup thread 0/WARN]: Failed to load chunk ( 2.900E+1  1.500E+1)
+java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:244) ~[?:?]
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158) ~[?:?]
+	at java.io.DataInputStream.readFully(DataInputStream.java:201) ~[?:?]
+	at java.io.DataInputStream.readFully(DataInputStream.java:172) ~[?:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:310) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:269) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:269) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:176) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.renderRaw(RegionRenderer.java:118) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.render(RegionRenderer.java:61) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$WorldRegionFolder.render(RegionFolder.java:179) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$CachedRegionFolder.render(RegionFolder.java:467) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.createPreview(BackupHandler.java:150) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.lambda$createBackup$4(BackupHandler.java:262) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:00:01] [FTB Backups backup thread 0/WARN]: Failed to load chunk ( 1.600E+1  1.200E+1)
+java.lang.IllegalArgumentException: Unsupported compression type, must be between 0 and 2 (inclusive)
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:159) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:111) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.renderRaw(RegionRenderer.java:117) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.render(RegionRenderer.java:61) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$WorldRegionFolder.render(RegionFolder.java:179) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$CachedRegionFolder.render(RegionFolder.java:467) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.createPreview(BackupHandler.java:150) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.lambda$createBackup$4(BackupHandler.java:262) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:00:01] [FTB Backups backup thread 0/WARN]: Failed to load chunk ( 1.600E+1  2.000E+0)
+java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:244) ~[?:?]
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158) ~[?:?]
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:122) ~[?:?]
+	at java.io.DataInputStream.readShort(DataInputStream.java:319) ~[?:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:231) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:256) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:256) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:269) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:176) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.renderRaw(RegionRenderer.java:118) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.render(RegionRenderer.java:61) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$WorldRegionFolder.render(RegionFolder.java:179) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$CachedRegionFolder.render(RegionFolder.java:467) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.createPreview(BackupHandler.java:150) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.lambda$createBackup$4(BackupHandler.java:262) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:00:01] [FTB Backups backup thread 0/WARN]: Failed to load chunk ( 1.700E+1  6.000E+0)
+java.lang.IllegalArgumentException: Unsupported compression type, must be between 0 and 2 (inclusive)
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:159) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:111) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.renderRaw(RegionRenderer.java:117) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.render(RegionRenderer.java:61) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$WorldRegionFolder.render(RegionFolder.java:179) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$CachedRegionFolder.render(RegionFolder.java:467) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.createPreview(BackupHandler.java:150) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.lambda$createBackup$4(BackupHandler.java:262) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:00:01] [FTB Backups backup thread 0/WARN]: Failed to load chunk ( 2.500E+1  1.600E+1)
+java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:244) ~[?:?]
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158) ~[?:?]
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:122) ~[?:?]
+	at java.io.DataInputStream.readShort(DataInputStream.java:319) ~[?:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:231) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:256) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:256) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:269) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:176) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.renderRaw(RegionRenderer.java:118) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.render(RegionRenderer.java:61) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$WorldRegionFolder.render(RegionFolder.java:179) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$CachedRegionFolder.render(RegionFolder.java:467) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.createPreview(BackupHandler.java:150) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.lambda$createBackup$4(BackupHandler.java:262) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:00:01] [FTB Backups backup thread 0/WARN]: Failed to load chunk ( 1.800E+1  1.600E+1)
+java.lang.IllegalArgumentException: Unsupported compression type, must be between 0 and 2 (inclusive)
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:159) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:111) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.renderRaw(RegionRenderer.java:117) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.render(RegionRenderer.java:61) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$WorldRegionFolder.render(RegionFolder.java:179) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$CachedRegionFolder.render(RegionFolder.java:467) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.createPreview(BackupHandler.java:150) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.lambda$createBackup$4(BackupHandler.java:262) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:00:01] [FTB Backups backup thread 0/WARN]: Failed to load chunk ( 1.700E+1  1.600E+1)
+java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:244) ~[?:?]
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158) ~[?:?]
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:122) ~[?:?]
+	at java.io.DataInputStream.readShort(DataInputStream.java:318) ~[?:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:231) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:256) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:256) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:269) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:176) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.renderRaw(RegionRenderer.java:118) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.render(RegionRenderer.java:61) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$WorldRegionFolder.render(RegionFolder.java:179) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$CachedRegionFolder.render(RegionFolder.java:467) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.createPreview(BackupHandler.java:150) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.lambda$createBackup$4(BackupHandler.java:262) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:00:01] [FTB Backups backup thread 0/WARN]: Failed to load chunk ( 1.600E+1  1.100E+1)
+java.lang.IllegalArgumentException: Unsupported compression type, must be between 0 and 2 (inclusive)
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:159) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:111) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.renderRaw(RegionRenderer.java:117) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.render(RegionRenderer.java:61) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$WorldRegionFolder.render(RegionFolder.java:179) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$CachedRegionFolder.render(RegionFolder.java:467) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.createPreview(BackupHandler.java:150) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.lambda$createBackup$4(BackupHandler.java:262) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:00:01] [FTB Backups backup thread 0/WARN]: Failed to load chunk ( 1.600E+1  1.600E+1)
+java.lang.IllegalArgumentException: Unsupported compression type, must be between 0 and 2 (inclusive)
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:159) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:111) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.renderRaw(RegionRenderer.java:117) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.render(RegionRenderer.java:61) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$WorldRegionFolder.render(RegionFolder.java:179) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$CachedRegionFolder.render(RegionFolder.java:467) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.createPreview(BackupHandler.java:150) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.lambda$createBackup$4(BackupHandler.java:262) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:00:01] [FTB Backups backup thread 0/WARN]: Failed to load chunk ( 1.700E+1  1.400E+1)
+java.lang.IllegalArgumentException: Unsupported compression type, must be between 0 and 2 (inclusive)
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:159) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:111) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.renderRaw(RegionRenderer.java:117) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.render(RegionRenderer.java:61) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$WorldRegionFolder.render(RegionFolder.java:179) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$CachedRegionFolder.render(RegionFolder.java:467) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.createPreview(BackupHandler.java:150) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.lambda$createBackup$4(BackupHandler.java:262) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:00:01] [FTB Backups backup thread 0/WARN]: Failed to load chunk ( 2.100E+1  1.500E+1)
+java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:244) ~[?:?]
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158) ~[?:?]
+	at java.io.DataInputStream.readFully(DataInputStream.java:201) ~[?:?]
+	at java.io.DataInputStream.readFully(DataInputStream.java:172) ~[?:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:310) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:269) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:269) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:256) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:269) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:176) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.renderRaw(RegionRenderer.java:118) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.render(RegionRenderer.java:61) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$WorldRegionFolder.render(RegionFolder.java:179) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$CachedRegionFolder.render(RegionFolder.java:467) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.createPreview(BackupHandler.java:150) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.lambda$createBackup$4(BackupHandler.java:262) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:00:01] [FTB Backups backup thread 0/WARN]: Failed to load chunk ( 1.700E+1  5.000E+0)
+java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:244) ~[?:?]
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158) ~[?:?]
+	at java.io.DataInputStream.readFully(DataInputStream.java:201) ~[?:?]
+	at java.io.DataInputStream.readFully(DataInputStream.java:172) ~[?:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:310) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:269) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:269) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:256) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTagPayload(NBTInputStream.java:269) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:199) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.readTag(NBTInputStream.java:176) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.renderRaw(RegionRenderer.java:118) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.render(RegionRenderer.java:61) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$WorldRegionFolder.render(RegionFolder.java:179) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$CachedRegionFolder.render(RegionFolder.java:467) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.createPreview(BackupHandler.java:150) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.lambda$createBackup$4(BackupHandler.java:262) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:00:01] [FTB Backups backup thread 0/WARN]: Failed to load chunk ( 1.700E+1  1.500E+1)
+java.lang.IllegalArgumentException: Unsupported compression type, must be between 0 and 2 (inclusive)
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:159) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:111) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.renderRaw(RegionRenderer.java:117) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.render(RegionRenderer.java:61) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$WorldRegionFolder.render(RegionFolder.java:179) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$CachedRegionFolder.render(RegionFolder.java:467) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.createPreview(BackupHandler.java:150) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at net.creeperhost.ftbbackups.BackupHandler.lambda$createBackup$4(BackupHandler.java:262) ~[ftbbackups2-fabric-1.18.2-1.0.18.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
+[00:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[00:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[00:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[00:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[00:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[00:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
+[00:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[00:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[00:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
+[00:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[00:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[00:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:00:02] [FTB Backups backup thread 0/INFO]: Setting world minecraft:overworld save state to false
+[00:00:02] [FTB Backups backup thread 0/INFO]: Setting world ad_astra:glacio_orbit save state to false
+[00:00:02] [FTB Backups backup thread 0/INFO]: Setting world minecraft:the_end save state to false
+[00:00:02] [FTB Backups backup thread 0/INFO]: Setting world ad_astra:mercury save state to false
+[00:00:02] [FTB Backups backup thread 0/INFO]: Setting world minecraft:the_nether save state to false
+[00:00:02] [FTB Backups backup thread 0/INFO]: Setting world ad_astra:moon_orbit save state to false
+[00:00:02] [FTB Backups backup thread 0/INFO]: Setting world ad_astra:moon save state to false
+[00:00:02] [FTB Backups backup thread 0/INFO]: Setting world ae2:spatial_storage save state to false
+[00:00:02] [FTB Backups backup thread 0/INFO]: Setting world ad_astra:mars save state to false
+[00:00:02] [FTB Backups backup thread 0/INFO]: Setting world ad_astra:glacio save state to false
+[00:00:02] [FTB Backups backup thread 0/INFO]: Setting world ad_astra:mars_orbit save state to false
+[00:00:02] [FTB Backups backup thread 0/INFO]: Setting world ad_astra:mercury_orbit save state to false
+[00:00:02] [FTB Backups backup thread 0/INFO]: Setting world ad_astra:earth_orbit save state to false
+[00:00:02] [FTB Backups backup thread 0/INFO]: Setting world ad_astra:venus save state to false
+[00:00:02] [FTB Backups backup thread 0/INFO]: Setting world ad_astra:venus_orbit save state to false
+[00:00:02] [FTB Backups backup thread 0/INFO]: Backup size 9.0MB World Size 16.5MB
+[00:00:02] [FTB Backups backup thread 0/INFO]: Writing to file C:\NoSync\AstraServer\backups\backups.json
+[00:00:02] [FTB Backups backup thread 0/INFO]: New backup created at C:\NoSync\AstraServer\backups\2023-6-9_0-0-0.zip size: 9.0MB Took: 0m, 2s, 102ms Sha1: 8b65a63a4d14293bcb38d0c2c3202a915df111ce
+[00:00:13] [Server thread/INFO]: SeteLHT has reached the goal [Encyclopedia]
+[00:00:32] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Tech Reborn]
+[00:00:48] [Server thread/INFO]: LilBigCheetos was blown up by Creeper
+[00:00:48] [Server thread/INFO]: Grave spawned at: 14, 74, -22 | overworld
+[00:00:49] [Netty Server IO #6/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:00:49] [Netty Server IO #6/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:00:57] [Server thread/INFO]: Grave at 14, 74, -22 was replaced with Block{minecraft:air}
+[00:00:57] [Server thread/INFO]: LilBigCheetos is retrieving their grave at 14, 74, -22
+[00:00:57] [Server thread/INFO]: LilBigCheetos retrieved the items from the grave
+[00:01:42] [Server thread/INFO]: LilBigCheetos lost connection: Disconnected
+[00:01:42] [Server thread/INFO]: LilBigCheetos left the game
+[00:01:44] [User Authenticator #7/INFO]: UUID of player LilBigCheetos is 9e9b4db4-4ae6-4383-9a3c-0407fd2f45db
+[00:01:44] [Server thread/INFO]: LilBigCheetos[/127.0.0.1:52984] logged in with entity id 2748 at (14.126271257142244, 74.0, -22.83929968260558)
+[00:01:44] [Server thread/INFO]: Syncing config to LilBigCheetos (9e9b4db4-4ae6-4383-9a3c-0407fd2f45db)
+[00:01:44] [Server thread/INFO]: LilBigCheetos joined the game
+[00:01:44] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:01:44] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:01:44] [Netty Server IO #16/INFO]: Priority overwritten for player LilBigCheetos. Normal: GRAVE / Robbing: INVENTORY
+[00:01:44] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:01:44] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:01:44] [Netty Server IO #16/INFO]: Player LilBigCheetos joined with a matching carpet client
+[00:02:27] [Server thread/INFO]: OBruxeiro has made the advancement [Monster Hunter]
+[00:02:43] [Server thread/INFO]: OBruxeiro hit the ground too hard
+[00:02:43] [Server thread/INFO]: Grave spawned at: 41, 70, -36 | overworld
+[00:02:44] [Netty Server IO #8/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:02:44] [Netty Server IO #8/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:02:56] [Server thread/INFO]: Grave at 41, 70, -36 was replaced with Block{minecraft:air}
+[00:02:56] [Server thread/INFO]: OBruxeiro is retrieving their grave at 41, 70, -36
+[00:02:56] [Server thread/INFO]: OBruxeiro retrieved the items from the grave
+[00:04:23] [Server thread/INFO]: LilBigCheetos has made the advancement [Monster Hunter]
+[00:04:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8, y=75, z=-35} class_2338{x=8, y=73, z=-34}
+[00:04:54] [Server thread/INFO]: OBruxeiro has made the advancement ['X' Marks the Spot]
+[00:04:54] [Server thread/INFO]: LilBigCheetos has made the advancement ['X' Marks the Spot]
+[00:04:57] [Server thread/INFO]: OBruxeiro has made the advancement [Acquire Hardware]
+[00:05:03] [Server thread/INFO]: OBruxeiro has made the advancement [Crops of the Wild]
+[00:05:17] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Cuprum Bokum]
+[00:06:27] [Netty Server IO #8/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:06:27] [Netty Server IO #8/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:06:33] [Netty Server IO #9/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:06:33] [Netty Server IO #9/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:06:34] [Netty Server IO #4/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:06:34] [Netty Server IO #4/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:06:37] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:06:37] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:06:43] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:06:43] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:06:48] [Server thread/INFO]: Saving grave backup data
+[00:07:04] [Server thread/INFO]: SeteLHT has made the advancement ['X' Marks the Spot]
+[00:07:14] [Server thread/INFO]: Daniel_Cadmo has made the advancement ['X' Marks the Spot]
+[00:07:58] [Server thread/INFO]: SeteLHT has made the advancement [Crops of the Wild]
+[00:08:18] [Server thread/INFO]: PeperoH has made the advancement ['X' Marks the Spot]
+[00:09:45] [Server thread/INFO]: OBruxeiro has made the advancement [Tech Reborn]
+[00:10:42] [Server thread/INFO]: LilBigCheetos has made the advancement [Hot Stuff]
+[00:11:15] [Server thread/INFO]: <SeteLHT> ta de baixo da terra, bobo?
+[00:11:24] [Server thread/INFO]: <SeteLHT> to indo
+[00:11:28] [Server thread/INFO]: <SeteLHT> ent volta
+[00:12:09] [Server thread/INFO]: LilBigCheetos has made the advancement [Tunnel Treasures]
+[00:13:36] [Server thread/INFO]: SeteLHT has made the advancement [Tunnel Treasures]
+[00:14:14] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Tunnel Treasures]
+[00:14:17] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Diamonds!]
+[00:15:19] [Server thread/INFO]: PeperoH was slain by Zombie
+[00:15:19] [Server thread/INFO]: Grave spawned at: 77, -50, -46 | overworld
+[00:15:20] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:15:20] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:15:46] [Server thread/INFO]: OBruxeiro has reached the goal [Dinner's Served!]
+[00:16:09] [Server thread/INFO]: PeperoH has made the advancement [Monster Hunter]
+[00:16:12] [Server thread/INFO]: Grave at 77, -50, -46 was replaced with Block{minecraft:air}
+[00:16:12] [Server thread/INFO]: PeperoH is retrieving their grave at 77, -50, -46
+[00:16:12] [Server thread/INFO]: PeperoH retrieved the items from the grave
+[00:16:48] [Server thread/INFO]: Saving grave backup data
+[00:17:26] [Server thread/INFO]: OBruxeiro has made the advancement [Hot Stuff]
+[00:18:49] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Sweet Dreams]
+[00:19:09] [Server thread/INFO]: Daniel_Cadmo was slain by SeteLHT
+[00:19:09] [Server thread/INFO]: Grave spawned at: 22, 69, -17 | overworld
+[00:19:10] [Netty Server IO #9/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:19:10] [Netty Server IO #9/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:19:12] [Server thread/INFO]: Grave at 22, 69, -17 was replaced with Block{minecraft:air}
+[00:19:12] [Server thread/INFO]: Daniel_Cadmo is retrieving their grave at 22, 69, -17
+[00:19:12] [Server thread/INFO]: Daniel_Cadmo retrieved the items from the grave
+[00:19:19] [Server thread/INFO]: SeteLHT was slain by Daniel_Cadmo
+[00:19:19] [Server thread/INFO]: Grave spawned at: 19, 69, -10 | overworld
+[00:19:20] [Netty Server IO #4/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:19:20] [Netty Server IO #4/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:19:24] [Server thread/INFO]: OBruxeiro has made the advancement [Cuprum Bokum]
+[00:19:32] [Server thread/INFO]: Grave at 19, 69, -10 was replaced with Block{minecraft:air}
+[00:19:32] [Server thread/INFO]: SeteLHT is retrieving their grave at 19, 69, -10
+[00:19:32] [Server thread/INFO]: SeteLHT retrieved the items from the grave
+[00:19:38] [Server thread/INFO]: SeteLHT has made the advancement [Sweet Dreams]
+[00:19:41] [Server thread/INFO]: <LilBigCheetos> 42 -95 -22
+[00:20:04] [Server thread/INFO]: SeteLHT was slain by Daniel_Cadmo
+[00:20:04] [Server thread/INFO]: Grave spawned at: 20, 69, -14 | overworld
+[00:20:05] [Netty Server IO #4/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:20:05] [Netty Server IO #4/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:20:07] [Server thread/INFO]: Grave at 20, 69, -14 was replaced with Block{minecraft:air}
+[00:20:07] [Server thread/INFO]: SeteLHT is retrieving their grave at 20, 69, -14
+[00:20:07] [Server thread/INFO]: SeteLHT retrieved the items from the grave
+[00:20:24] [Server thread/INFO]: OBruxeiro was slain by SeteLHT
+[00:20:24] [Server thread/INFO]: Grave spawned at: 21, 69, -12 | overworld
+[00:20:25] [Netty Server IO #8/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:20:25] [Netty Server IO #8/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:20:26] [Server thread/INFO]: Grave at 21, 69, -12 was replaced with Block{minecraft:air}
+[00:20:26] [Server thread/INFO]: OBruxeiro is retrieving their grave at 21, 69, -12
+[00:20:26] [Server thread/INFO]: OBruxeiro retrieved the items from the grave
+[00:20:53] [Server thread/INFO]: OBruxeiro was slain by Daniel_Cadmo
+[00:20:53] [Server thread/INFO]: Grave spawned at: 19, 70, -16 | overworld
+[00:20:54] [Netty Server IO #8/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:20:54] [Netty Server IO #8/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:20:55] [Server thread/INFO]: Grave at 19, 70, -16 was replaced with Block{minecraft:air}
+[00:20:55] [Server thread/INFO]: OBruxeiro is retrieving their grave at 19, 70, -16
+[00:20:55] [Server thread/INFO]: OBruxeiro retrieved the items from the grave
+[00:20:58] [Server thread/INFO]: Daniel_Cadmo was slain by OBruxeiro
+[00:20:58] [Server thread/INFO]: Grave spawned at: 21, 69, -22 | overworld
+[00:20:59] [Netty Server IO #9/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:20:59] [Netty Server IO #9/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:21:03] [Server thread/INFO]: Grave at 21, 69, -22 was replaced with Block{minecraft:air}
+[00:21:03] [Server thread/INFO]: Daniel_Cadmo is retrieving their grave at 21, 69, -22
+[00:21:03] [Server thread/INFO]: Daniel_Cadmo retrieved the items from the grave
+[00:21:58] [Server thread/INFO]: PeperoH has made the advancement [Glow and Behold!]
+[00:22:10] [Server thread/INFO]: LilBigCheetos was blown up by Creeper
+[00:22:10] [Server thread/INFO]: Grave spawned at: 56, -20, -32 | overworld
+[00:22:12] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:22:12] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:22:17] [Server thread/INFO]: OBruxeiro was slain by Enderman
+[00:22:17] [Server thread/INFO]: Grave spawned at: 0, 70, -51 | overworld
+[00:22:17] [Netty Server IO #8/ERROR]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[00:22:17] [Netty Server IO #8/ERROR]: Combo count: 14 is dual wielding: false
+[00:22:17] [Netty Server IO #8/ERROR]: Main-hand stack: 0 air
+[00:22:17] [Netty Server IO #8/ERROR]: Off-hand stack: 0 air
+[00:22:17] [Netty Server IO #8/ERROR]: Selected slot server: 0 | client: 0
+[00:22:18] [Netty Server IO #8/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:22:18] [Netty Server IO #8/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:22:31] [Server thread/INFO]: Grave at 0, 70, -51 was replaced with Block{minecraft:air}
+[00:22:31] [Server thread/INFO]: OBruxeiro is retrieving their grave at 0, 70, -51
+[00:22:31] [Server thread/INFO]: OBruxeiro retrieved the items from the grave
+[00:22:35] [Server thread/INFO]: LilBigCheetos fell from a high place
+[00:22:35] [Server thread/INFO]: Didn't generate grave as grave wouldn't contain anything
+[00:22:36] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:22:36] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:22:51] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Glow and Behold!]
+[00:23:40] [Server thread/INFO]: PeperoH was shot by Skeleton
+[00:23:40] [Server thread/INFO]: Grave spawned at: 52, -44, -29 | overworld
+[00:23:41] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:23:41] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:24:00] [Server thread/INFO]: Grave at 52, -44, -29 was replaced with Block{minecraft:air}
+[00:24:00] [Server thread/INFO]: PeperoH is retrieving their grave at 52, -44, -29
+[00:24:00] [Server thread/INFO]: PeperoH retrieved the items from the grave
+[00:24:09] [Server thread/INFO]: Grave at 56, -20, -32 was replaced with Block{minecraft:air}
+[00:24:09] [Server thread/INFO]: LilBigCheetos is retrieving their grave at 56, -20, -32
+[00:24:09] [Server thread/INFO]: LilBigCheetos retrieved the items from the grave
+[00:24:34] [Server thread/INFO]: PeperoH has made the advancement [Tunnel Treasures]
+[00:24:56] [Server thread/INFO]: Daniel_Cadmo lost connection: Disconnected
+[00:24:56] [Server thread/INFO]: Daniel_Cadmo left the game
+[00:25:11] [User Authenticator #8/INFO]: UUID of player Daniel_Cadmo is 195de06f-89a7-4f8f-b6ae-856e547cf26b
+[00:25:11] [Server thread/INFO]: Daniel_Cadmo[/189.121.114.105:57878] logged in with entity id 7104 at (19.03650280262135, 69.0, -8.639716830929764)
+[00:25:11] [Server thread/INFO]: Syncing config to Daniel_Cadmo (195de06f-89a7-4f8f-b6ae-856e547cf26b)
+[00:25:11] [Server thread/INFO]: Daniel_Cadmo joined the game
+[00:25:11] [Netty Server IO #18/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:25:11] [Netty Server IO #18/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:25:11] [Netty Server IO #18/INFO]: Priority overwritten for player Daniel_Cadmo. Normal: GRAVE / Robbing: INVENTORY
+[00:25:11] [Netty Server IO #18/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:25:11] [Netty Server IO #18/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:25:12] [Netty Server IO #18/INFO]: Player Daniel_Cadmo joined with a matching carpet client
+[00:26:48] [Server thread/INFO]: Saving grave backup data
+[00:26:55] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-213, y=69, z=124}
+[00:26:55] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-211, y=69, z=124}
+[00:26:55] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-210, y=70, z=124}
+[00:26:55] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-224, y=69, z=124}
+[00:26:55] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-223, y=69, z=124}
+[00:26:55] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-220, y=69, z=124}
+[00:26:55] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-218, y=69, z=124}
+[00:26:55] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-216, y=69, z=124}
+[00:26:55] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-217, y=69, z=124}
+[00:27:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-231, y=69, z=124}
+[00:27:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-228, y=69, z=124}
+[00:27:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-229, y=69, z=124}
+[00:27:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-240, y=69, z=124}
+[00:27:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-239, y=69, z=124}
+[00:27:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-236, y=69, z=124}
+[00:27:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-237, y=69, z=124}
+[00:27:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-234, y=69, z=124}
+[00:27:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-232, y=69, z=124}
+[00:30:29] [Server thread/INFO]: SeteLHT lost connection: Disconnected
+[00:30:29] [Server thread/INFO]: SeteLHT left the game
+[00:30:31] [User Authenticator #9/INFO]: UUID of player SeteLHT is f0b74fe1-c91e-4879-ac8b-b1f3578f2545
+[00:30:31] [Server thread/INFO]: SeteLHT[/186.220.196.0:12411] logged in with entity id 8213 at (22.268495183832762, 69.0, -21.280912987625566)
+[00:30:31] [Server thread/INFO]: Syncing config to SeteLHT (f0b74fe1-c91e-4879-ac8b-b1f3578f2545)
+[00:30:31] [Server thread/INFO]: SeteLHT joined the game
+[00:30:32] [Netty Server IO #20/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:30:32] [Netty Server IO #20/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:30:32] [Netty Server IO #20/INFO]: Priority overwritten for player SeteLHT. Normal: GRAVE / Robbing: INVENTORY
+[00:30:32] [Netty Server IO #20/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:30:32] [Netty Server IO #20/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:30:33] [Netty Server IO #20/INFO]: Player SeteLHT joined with a matching carpet client
+[00:30:39] [Server thread/INFO]: OBruxeiro lost connection: Disconnected
+[00:30:39] [Server thread/INFO]: OBruxeiro left the game
+[00:30:42] [User Authenticator #10/INFO]: UUID of player OBruxeiro is c52623a5-728b-43fa-915b-b526935d2d06
+[00:30:42] [Server thread/INFO]: OBruxeiro[/152.244.68.187:51941] logged in with entity id 8231 at (20.279119356234744, 69.0, -18.63029019044716)
+[00:30:42] [Server thread/INFO]: Syncing config to OBruxeiro (c52623a5-728b-43fa-915b-b526935d2d06)
+[00:30:42] [Server thread/INFO]: OBruxeiro joined the game
+[00:30:42] [Netty Server IO #21/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:30:42] [Netty Server IO #21/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:30:42] [Netty Server IO #21/INFO]: Priority overwritten for player OBruxeiro. Normal: GRAVE / Robbing: INVENTORY
+[00:30:42] [Netty Server IO #21/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:30:42] [Netty Server IO #21/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:30:45] [Netty Server IO #21/INFO]: Player OBruxeiro joined with a matching carpet client
+[00:31:04] [Server thread/INFO]: PeperoH has made the advancement [Acquire Hardware]
+[00:31:22] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Acquire Hardware]
+[00:32:26] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-247, y=69, z=124}
+[00:32:26] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-244, y=69, z=124}
+[00:32:26] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-245, y=69, z=124}
+[00:32:26] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-242, y=69, z=124}
+[00:32:26] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-256, y=69, z=124}
+[00:32:26] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-255, y=69, z=124}
+[00:32:26] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-252, y=69, z=124}
+[00:32:26] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-253, y=69, z=124}
+[00:32:26] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-250, y=69, z=124}
+[00:32:26] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-248, y=69, z=124}
+[00:36:38] [Server thread/INFO]: LilBigCheetos has made the advancement [Cuprum Bokum]
+[00:37:43] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Bonfire Lit]
+[00:39:02] [Server thread/INFO]: OBruxeiro was slain by Zombie
+[00:39:02] [Server thread/INFO]: Grave spawned at: 34, 72, -91 | overworld
+[00:39:03] [Netty Server IO #21/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:39:03] [Netty Server IO #21/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:39:03] [Server thread/WARN]: OBruxeiro moved too quickly! -12.468079879858998,-2.4375,77.33864971661505
+[00:39:23] [Server thread/INFO]: Grave at 34, 72, -91 was replaced with Block{minecraft:air}
+[00:39:23] [Server thread/INFO]: OBruxeiro is retrieving their grave at 34, 72, -91
+[00:39:23] [Server thread/INFO]: OBruxeiro retrieved the items from the grave
+[00:40:06] [Server thread/INFO]: OBruxeiro was slain by Daniel_Cadmo
+[00:40:06] [Server thread/INFO]: Grave spawned at: 21, 69, -15 | overworld
+[00:40:07] [Netty Server IO #21/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:40:07] [Netty Server IO #21/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:40:09] [Server thread/INFO]: Grave at 21, 69, -15 was replaced with Block{minecraft:air}
+[00:40:09] [Server thread/INFO]: OBruxeiro is retrieving their grave at 21, 69, -15
+[00:40:09] [Server thread/INFO]: OBruxeiro retrieved the items from the grave
+[00:44:59] [Server thread/INFO]: PeperoH has made the advancement [Cuprum Bokum]
+[00:44:59] [Server thread/INFO]: LilBigCheetos has made the advancement [Acquire Hardware]
+[00:44:59] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=591, y=63, z=-326}
+[00:44:59] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=589, y=63, z=-326}
+[00:44:59] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=586, y=63, z=-326}
+[00:45:03] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=607, y=63, z=-326}
+[00:45:03] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=606, y=63, z=-326}
+[00:45:03] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=605, y=63, z=-326}
+[00:45:03] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=600, y=63, z=-326}
+[00:45:03] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=599, y=63, z=-326}
+[00:45:03] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=598, y=63, z=-326}
+[00:45:03] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=597, y=63, z=-326}
+[00:45:03] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=604, y=63, z=-326}
+[00:45:03] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=603, y=63, z=-326}
+[00:45:03] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=63, z=-326}
+[00:45:03] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=601, y=63, z=-326}
+[00:45:03] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=592, y=63, z=-326}
+[00:45:03] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=596, y=63, z=-326}
+[00:45:03] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=595, y=63, z=-326}
+[00:45:03] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=594, y=63, z=-326}
+[00:45:03] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=593, y=63, z=-326}
+[00:45:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=608, y=63, z=-326}
+[00:45:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=612, y=63, z=-326}
+[00:45:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=611, y=63, z=-326}
+[00:45:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=610, y=63, z=-326}
+[00:45:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=609, y=63, z=-326}
+[00:45:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=623, y=63, z=-326}
+[00:45:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=622, y=63, z=-326}
+[00:45:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=621, y=63, z=-326}
+[00:45:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=616, y=63, z=-326}
+[00:45:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=615, y=63, z=-326}
+[00:45:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=614, y=63, z=-326}
+[00:45:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=613, y=63, z=-326}
+[00:45:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=620, y=63, z=-326}
+[00:45:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=619, y=63, z=-326}
+[00:45:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=618, y=63, z=-326}
+[00:45:07] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=617, y=63, z=-326}
+[00:45:10] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=639, y=63, z=-326}
+[00:45:10] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=638, y=63, z=-326}
+[00:45:10] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=637, y=63, z=-326}
+[00:45:10] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=632, y=63, z=-326}
+[00:45:10] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=631, y=63, z=-326}
+[00:45:10] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=630, y=63, z=-326}
+[00:45:10] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=629, y=63, z=-326}
+[00:45:10] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=636, y=63, z=-326}
+[00:45:10] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=635, y=63, z=-326}
+[00:45:10] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=634, y=63, z=-326}
+[00:45:10] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=633, y=63, z=-326}
+[00:45:10] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=624, y=63, z=-326}
+[00:45:10] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=628, y=63, z=-326}
+[00:45:10] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=627, y=63, z=-326}
+[00:45:10] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=626, y=63, z=-326}
+[00:45:10] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=625, y=63, z=-326}
+[00:45:16] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Crops of the Wild]
+[00:45:16] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=640, y=63, z=-326}
+[00:45:16] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=644, y=63, z=-326}
+[00:45:16] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=643, y=63, z=-326}
+[00:45:16] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=642, y=63, z=-326}
+[00:45:16] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=641, y=63, z=-326}
+[00:45:16] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=655, y=63, z=-326}
+[00:45:16] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=654, y=63, z=-326}
+[00:45:16] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=653, y=63, z=-326}
+[00:45:16] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=648, y=63, z=-326}
+[00:45:16] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=647, y=63, z=-326}
+[00:45:16] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=646, y=63, z=-326}
+[00:45:16] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=645, y=63, z=-326}
+[00:45:16] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=652, y=63, z=-326}
+[00:45:16] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=651, y=63, z=-326}
+[00:45:16] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=650, y=63, z=-326}
+[00:45:16] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=649, y=63, z=-326}
+[00:45:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=664, y=63, z=-326}
+[00:45:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=663, y=63, z=-326}
+[00:45:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=662, y=63, z=-326}
+[00:45:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=661, y=63, z=-326}
+[00:45:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=665, y=63, z=-326}
+[00:45:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=656, y=63, z=-326}
+[00:45:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=660, y=63, z=-326}
+[00:45:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=659, y=63, z=-326}
+[00:45:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=658, y=63, z=-326}
+[00:45:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=657, y=63, z=-326}
+[00:46:48] [Server thread/INFO]: Saving grave backup data
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=64, z=-213}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=63, z=-210}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=65, z=-216}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=63, z=-209}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=65, z=-215}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=63, z=-204}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=63, z=-194}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=63, z=-195}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=63, z=-208}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=63, z=-193}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=63, z=-198}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=63, z=-203}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=63, z=-201}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=78, z=-191}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=78, z=-189}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=74, z=-178}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=77, z=-181}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=76, z=-180}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=77, z=-184}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=77, z=-183}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=77, z=-188}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=77, z=-186}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=73, z=-164}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=73, z=-168}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=73, z=-166}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=73, z=-167}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=74, z=-172}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=73, z=-170}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=74, z=-175}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=74, z=-176}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=73, z=-161}
+[00:47:17] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=794, y=74, z=-173}
+[00:47:23] [Server thread/INFO]: SeteLHT has made the advancement [Barrel Booty]
+[00:52:16] [Server thread/INFO]: OBruxeiro was slain by Daniel_Cadmo
+[00:52:16] [Server thread/INFO]: Grave spawned at: 20, 69, -15 | overworld
+[00:52:17] [Netty Server IO #21/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:52:17] [Netty Server IO #21/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:52:18] [Server thread/INFO]: Grave at 20, 69, -15 was replaced with Block{minecraft:air}
+[00:52:18] [Server thread/INFO]: OBruxeiro is retrieving their grave at 20, 69, -15
+[00:52:18] [Server thread/INFO]: OBruxeiro retrieved the items from the grave
+[00:53:41] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=177}
+[00:53:41] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=180}
+[00:53:41] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=181}
+[00:53:41] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=178}
+[00:53:41] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=179}
+[00:53:41] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=184}
+[00:53:41] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=185}
+[00:53:41] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=182}
+[00:53:41] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=183}
+[00:53:41] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=188}
+[00:53:41] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=189}
+[00:53:41] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=186}
+[00:53:41] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=187}
+[00:53:41] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=190}
+[00:53:41] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=191}
+[00:53:45] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=207}
+[00:53:45] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=206}
+[00:53:45] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=192}
+[00:53:45] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=193}
+[00:53:45] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=196}
+[00:53:45] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=197}
+[00:53:45] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=194}
+[00:53:45] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=195}
+[00:53:45] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=200}
+[00:53:45] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=201}
+[00:53:45] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=198}
+[00:53:45] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=199}
+[00:53:45] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=205}
+[00:53:45] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=204}
+[00:53:45] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=203}
+[00:53:45] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=202}
+[00:53:48] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=209}
+[00:53:48] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=208}
+[00:53:48] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=213}
+[00:53:49] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=212}
+[00:53:49] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=211}
+[00:53:49] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=210}
+[00:53:49] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=217}
+[00:53:49] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=216}
+[00:53:49] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=215}
+[00:53:49] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=214}
+[00:53:49] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=221}
+[00:53:49] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=220}
+[00:53:49] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=219}
+[00:53:49] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=218}
+[00:53:49] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=223}
+[00:53:49] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=222}
+[00:53:51] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=239}
+[00:53:51] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=238}
+[00:53:51] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=225}
+[00:53:51] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=224}
+[00:53:51] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=229}
+[00:53:51] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=228}
+[00:53:51] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=227}
+[00:53:51] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=226}
+[00:53:51] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=233}
+[00:53:51] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=232}
+[00:53:51] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=231}
+[00:53:51] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=230}
+[00:53:51] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=237}
+[00:53:51] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=236}
+[00:53:51] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=235}
+[00:53:51] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=234}
+[00:53:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=241}
+[00:53:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=240}
+[00:53:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=245}
+[00:53:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=244}
+[00:53:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=243}
+[00:53:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=242}
+[00:53:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=249}
+[00:53:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=248}
+[00:53:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=247}
+[00:53:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=246}
+[00:53:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=71, z=252}
+[00:53:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=72, z=250}
+[00:53:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=602, y=63, z=255}
+[00:54:28] [Server thread/INFO]: Made LilBigCheetos a server operator
+[00:54:28] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:54:28] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:54:43] [Server thread/INFO]: [LilBigCheetos: Made Daniel_Cadmo a server operator]
+[00:54:43] [Netty Server IO #18/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:54:43] [Netty Server IO #18/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:54:51] [Server thread/INFO]: [LilBigCheetos: Made OBruxeiro a server operator]
+[00:54:51] [Netty Server IO #21/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:54:51] [Netty Server IO #21/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:54:55] [Server thread/INFO]: [LilBigCheetos: Made PeperoH a server operator]
+[00:54:55] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:54:55] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:54:58] [Server thread/INFO]: [LilBigCheetos: Made SeteLHT a server operator]
+[00:54:58] [Netty Server IO #20/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:54:58] [Netty Server IO #20/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:55:22] [Server thread/INFO]: PeperoH suffocated in a wall
+[00:55:22] [Server thread/INFO]: Grave spawned at: 59, 62, -93 | overworld
+[00:55:27] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:55:27] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[00:55:27] [Server thread/WARN]: PeperoH moved too quickly! -36.92308226559938,6.8125,78.88749998807907
+[00:55:55] [Server thread/WARN]: Daniel_Cadmo moved too quickly! -36.0,4.0,73.0
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=54}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=55}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=56}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=57}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=58}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=59}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=60}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=48}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=49}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=50}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=51}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=52}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=53}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=32}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=33}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=34}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=35}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=36}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=37}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=38}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=39}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=40}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=41}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=42}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=43}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=44}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=45}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=46}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=47}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=22}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=23}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=24}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=25}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=26}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=27}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=28}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=29}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=30}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=31}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=16}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=17}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=18}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=19}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=20}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=21}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=14}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=15}
+[00:56:32] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=1002, y=96, z=13}
+[00:56:38] [Server thread/INFO]: [SeteLHT: Teleported SeteLHT to Daniel_Cadmo]
+[00:56:38] [Server thread/WARN]: SeteLHT moved too quickly! -796.7948633723115,-67.0,-181.50647794381803
+[00:56:48] [Server thread/INFO]: Saving grave backup data
+[00:58:16] [Server thread/INFO]: Grave at 59, 62, -93 was replaced with Block{minecraft:gravel}
+[00:58:16] [Server thread/INFO]: PeperoH is retrieving their grave at 59, 62, -93
+[00:58:16] [Server thread/INFO]: PeperoH retrieved the items from the grave
+[00:58:23] [Server thread/INFO]: [OBruxeiro: Teleported OBruxeiro to LilBigCheetos]
+[00:58:24] [Server thread/WARN]: OBruxeiro moved too quickly! 22.29964257292729,6.024424088213692,-66.6036517346902
+[01:00:20] [Server thread/INFO]: PeperoH has reached the goal [Dinner's Served!]
+[01:01:09] [Server thread/WARN]: OBruxeiro moved too quickly! -36.9615139189729,89.0,93.48244243875598
+[01:01:09] [Server thread/WARN]: OBruxeiro moved too quickly! -36.9615139189729,89.0,93.48244243875598
+[01:02:16] [Server thread/INFO]: SeteLHT lost connection: Disconnected
+[01:02:16] [Server thread/INFO]: SeteLHT left the game
+[01:02:19] [User Authenticator #11/INFO]: UUID of player SeteLHT is f0b74fe1-c91e-4879-ac8b-b1f3578f2545
+[01:02:19] [Server thread/INFO]: SeteLHT[/186.220.196.0:12637] logged in with entity id 18128 at (13.779714716269648, 74.0, -19.255917706156243)
+[01:02:19] [Server thread/INFO]: Syncing config to SeteLHT (f0b74fe1-c91e-4879-ac8b-b1f3578f2545)
+[01:02:19] [Server thread/INFO]: SeteLHT joined the game
+[01:02:19] [Netty Server IO #23/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:02:19] [Netty Server IO #23/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:02:19] [Netty Server IO #23/INFO]: Priority overwritten for player SeteLHT. Normal: GRAVE / Robbing: INVENTORY
+[01:02:19] [Netty Server IO #23/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:02:19] [Netty Server IO #23/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:02:20] [Netty Server IO #23/INFO]: Player SeteLHT joined with a matching carpet client
+[01:03:15] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Monster Hunter]
+[01:03:16] [Server thread/INFO]: PeperoH has made the advancement [Sweet Dreams]
+[01:03:19] [Server thread/INFO]: LilBigCheetos has made the advancement [Sweet Dreams]
+[01:03:31] [Server thread/INFO]: OBruxeiro has made the advancement [Sweet Dreams]
+[01:05:11] [Server thread/INFO]: PeperoH has reached the goal [Encyclopedia]
+[01:06:04] [Server thread/INFO]: Daniel_Cadmo has made the advancement [A Seedy Place]
+[01:06:17] [Server thread/INFO]: SeteLHT has made the advancement [Acquire Hardware]
+[01:06:43] [Server thread/INFO]: Daniel_Cadmo was slain by LilBigCheetos
+[01:06:43] [Server thread/INFO]: Grave spawned at: 20, 69, -9 | overworld
+[01:06:44] [Netty Server IO #18/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:06:44] [Netty Server IO #18/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:06:46] [Server thread/INFO]: Grave at 20, 69, -9 was replaced with Block{minecraft:air}
+[01:06:46] [Server thread/INFO]: Daniel_Cadmo is retrieving their grave at 20, 69, -9
+[01:06:46] [Server thread/INFO]: Daniel_Cadmo retrieved the items from the grave
+[01:06:48] [Server thread/INFO]: Saving grave backup data
+[01:10:33] [Server thread/INFO]: SeteLHT lost connection: Disconnected
+[01:10:33] [Server thread/INFO]: SeteLHT left the game
+[01:10:34] [Server thread/WARN]: Block entity minecraft:campfire @ class_2338{x=-260, y=69, z=124} state Block{create:track}[shape=xo,turn=false,waterlogged=false] invalid for ticking:
+[01:10:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-272, y=69, z=124}
+[01:10:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-270, y=69, z=124}
+[01:10:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-271, y=69, z=124}
+[01:10:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-268, y=69, z=124}
+[01:10:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-269, y=69, z=124}
+[01:10:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-266, y=69, z=124}
+[01:10:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-267, y=69, z=124}
+[01:10:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-264, y=69, z=124}
+[01:10:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-265, y=69, z=124}
+[01:10:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-262, y=69, z=124}
+[01:10:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-263, y=69, z=124}
+[01:10:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-261, y=69, z=124}
+[01:10:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-258, y=69, z=124}
+[01:10:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-259, y=69, z=124}
+[01:10:34] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-257, y=69, z=124}
+[01:10:41] [User Authenticator #12/INFO]: UUID of player SeteLHT is f0b74fe1-c91e-4879-ac8b-b1f3578f2545
+[01:10:41] [Server thread/INFO]: SeteLHT[/186.220.196.0:12774] logged in with entity id 19569 at (14.417192826171318, 74.0, -20.70970278527469)
+[01:10:41] [Server thread/INFO]: Syncing config to SeteLHT (f0b74fe1-c91e-4879-ac8b-b1f3578f2545)
+[01:10:41] [Server thread/INFO]: SeteLHT joined the game
+[01:10:41] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:10:41] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:10:42] [Netty Server IO #26/INFO]: Priority overwritten for player SeteLHT. Normal: GRAVE / Robbing: INVENTORY
+[01:10:42] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:10:42] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:10:44] [Netty Server IO #26/INFO]: Player SeteLHT joined with a matching carpet client
+[01:11:23] [Server thread/WARN]: OBruxeiro moved too quickly! 63.74527510849469,14.0,11.205000077763177
+[01:14:11] [Server thread/INFO]: OBruxeiro hit the ground too hard
+[01:14:12] [Server thread/INFO]: Grave spawned at: 20, 69, -23 | overworld
+[01:14:13] [Netty Server IO #21/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:14:13] [Netty Server IO #21/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:14:15] [Server thread/INFO]: Grave at 20, 69, -23 was replaced with Block{minecraft:air}
+[01:14:15] [Server thread/INFO]: OBruxeiro is retrieving their grave at 20, 69, -23
+[01:14:15] [Server thread/INFO]: OBruxeiro retrieved the items from the grave
+[01:15:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-276, y=69, z=124}
+[01:15:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-277, y=69, z=124}
+[01:15:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-274, y=69, z=124}
+[01:15:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-275, y=69, z=124}
+[01:15:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=xo,turn=false,waterlogged=false] but failed at location class_2338{x=-273, y=69, z=124}
+[01:16:48] [Server thread/INFO]: Saving grave backup data
+[01:20:30] [User Authenticator #13/INFO]: UUID of player Daniel_Cadmo is 195de06f-89a7-4f8f-b6ae-856e547cf26b
+[01:20:30] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@5f0f5a1c[id=195de06f-89a7-4f8f-b6ae-856e547cf26b,name=Daniel_Cadmo,properties={textures=[com.mojang.authlib.properties.Property@6ed491bc]},legacy=false] (/189.121.114.105:61005): The server is full!
+[01:20:30] [Server thread/INFO]: com.mojang.authlib.GameProfile@5f0f5a1c[id=195de06f-89a7-4f8f-b6ae-856e547cf26b,name=Daniel_Cadmo,properties={textures=[com.mojang.authlib.properties.Property@6ed491bc]},legacy=false] (/189.121.114.105:61005) lost connection: The server is full!
+[01:20:30] [Server thread/WARN]: handleDisconnection() called twice
+[01:20:37] [User Authenticator #14/INFO]: UUID of player Daniel_Cadmo is 195de06f-89a7-4f8f-b6ae-856e547cf26b
+[01:20:37] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@52fa00e5[id=195de06f-89a7-4f8f-b6ae-856e547cf26b,name=Daniel_Cadmo,properties={textures=[com.mojang.authlib.properties.Property@f3fcd4c]},legacy=false] (/189.121.114.105:61017): The server is full!
+[01:20:37] [Server thread/INFO]: com.mojang.authlib.GameProfile@52fa00e5[id=195de06f-89a7-4f8f-b6ae-856e547cf26b,name=Daniel_Cadmo,properties={textures=[com.mojang.authlib.properties.Property@f3fcd4c]},legacy=false] (/189.121.114.105:61017) lost connection: The server is full!
+[01:20:37] [Server thread/WARN]: handleDisconnection() called twice
+[01:20:44] [Server thread/INFO]: Daniel_Cadmo lost connection: Disconnected
+[01:20:44] [Server thread/INFO]: Daniel_Cadmo left the game
+[01:20:44] [Server thread/WARN]: handleDisconnection() called twice
+[01:20:52] [User Authenticator #15/INFO]: UUID of player Daniel_Cadmo is 195de06f-89a7-4f8f-b6ae-856e547cf26b
+[01:20:52] [Server thread/INFO]: Daniel_Cadmo[/189.121.114.105:61040] logged in with entity id 21958 at (26.080488747534513, 67.0, -33.74155896462013)
+[01:20:52] [Server thread/INFO]: Syncing config to Daniel_Cadmo (195de06f-89a7-4f8f-b6ae-856e547cf26b)
+[01:20:52] [Server thread/INFO]: Daniel_Cadmo joined the game
+[01:20:52] [Netty Server IO #1/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:20:52] [Netty Server IO #1/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:20:52] [Netty Server IO #1/INFO]: Priority overwritten for player Daniel_Cadmo. Normal: GRAVE / Robbing: INVENTORY
+[01:20:52] [Netty Server IO #1/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:20:52] [Netty Server IO #1/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:20:53] [Netty Server IO #1/INFO]: Player Daniel_Cadmo joined with a matching carpet client
+[01:21:54] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Hot Stuff]
+[01:22:42] [Server thread/INFO]: Daniel_Cadmo was slain by Enderman
+[01:22:42] [Server thread/INFO]: Grave spawned at: 19, 69, -11 | overworld
+[01:22:43] [Netty Server IO #1/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:22:43] [Netty Server IO #1/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:22:44] [Server thread/INFO]: Grave at 19, 69, -11 was replaced with Block{minecraft:air}
+[01:22:44] [Server thread/INFO]: Daniel_Cadmo is retrieving their grave at 19, 69, -11
+[01:22:44] [Server thread/INFO]: Daniel_Cadmo retrieved the items from the grave
+[01:23:15] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Sturdier Rocks]
+[01:23:38] [Server thread/INFO]: OBruxeiro fell from a high place
+[01:23:38] [Server thread/INFO]: Grave spawned at: 44, 51, -22 | overworld
+[01:23:43] [Netty Server IO #21/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:23:43] [Netty Server IO #21/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:24:00] [Server thread/INFO]: Daniel_Cadmo lost connection: Disconnected
+[01:24:00] [Server thread/INFO]: Daniel_Cadmo left the game
+[01:24:03] [User Authenticator #16/INFO]: UUID of player Daniel_Cadmo is 195de06f-89a7-4f8f-b6ae-856e547cf26b
+[01:24:03] [Server thread/INFO]: Daniel_Cadmo[/189.121.114.105:61134] logged in with entity id 22524 at (21.29215077961737, 69.0, -13.528882489710103)
+[01:24:03] [Server thread/INFO]: Syncing config to Daniel_Cadmo (195de06f-89a7-4f8f-b6ae-856e547cf26b)
+[01:24:03] [Server thread/INFO]: Daniel_Cadmo joined the game
+[01:24:03] [Server thread/INFO]: Grave at 44, 51, -22 was replaced with Block{minecraft:air}
+[01:24:03] [Server thread/INFO]: OBruxeiro is retrieving their grave at 44, 51, -22
+[01:24:03] [Server thread/INFO]: OBruxeiro retrieved the items from the grave
+[01:24:03] [Netty Server IO #3/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:24:03] [Netty Server IO #3/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:24:03] [Netty Server IO #3/INFO]: Priority overwritten for player Daniel_Cadmo. Normal: GRAVE / Robbing: INVENTORY
+[01:24:03] [Netty Server IO #3/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:24:03] [Netty Server IO #3/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:24:04] [Netty Server IO #3/INFO]: Player Daniel_Cadmo joined with a matching carpet client
+[01:24:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=90, y=-17, z=-80} class_2338{x=91, y=-16, z=-80}
+[01:26:48] [Server thread/INFO]: Saving grave backup data
+[01:29:05] [Server thread/INFO]: LilBigCheetos has made the advancement [Sturdier Rocks]
+[01:29:06] [Server thread/INFO]: LilBigCheetos has made the advancement [The Andesite Age]
+[01:30:15] [Server thread/INFO]: OBruxeiro has made the advancement [Sturdier Rocks]
+[01:30:24] [Server thread/INFO]: OBruxeiro has made the advancement [The Andesite Age]
+[01:30:43] [Server thread/INFO]: [SeteLHT: Teleported SeteLHT to Daniel_Cadmo]
+[01:30:43] [Server thread/WARN]: SeteLHT moved too quickly! -118.888729445139,1.0,63.354465617159086
+[01:30:43] [Server thread/WARN]: SeteLHT moved too quickly! -118.888729445139,1.0,63.354465617159086
+[01:31:48] [Server thread/INFO]: SeteLHT has made the advancement [Take Aim]
+[01:32:25] [Server thread/INFO]: LilBigCheetos has made the advancement [Take Aim]
+[01:33:08] [Server thread/INFO]: death.attack.spear
+[01:33:08] [Server thread/INFO]: Grave spawned at: 13, 74, -30 | overworld
+[01:33:09] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:33:09] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:33:09] [Server thread/WARN]: SeteLHT moved too quickly! 9.950093913294129,-4.4375,19.510504697844897
+[01:33:15] [Server thread/INFO]: Grave at 13, 74, -30 was replaced with Block{minecraft:air}
+[01:33:15] [Server thread/INFO]: SeteLHT is retrieving their grave at 13, 74, -30
+[01:33:15] [Server thread/INFO]: SeteLHT retrieved the items from the grave
+[01:33:22] [Server thread/INFO]: LilBigCheetos was slain by SeteLHT
+[01:33:22] [Server thread/INFO]: Grave spawned at: 22, 68, -24 | overworld
+[01:33:23] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:33:23] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:33:24] [Server thread/INFO]: SeteLHT was slain by Daniel_Cadmo
+[01:33:24] [Server thread/INFO]: Grave spawned at: 21, 69, -23 | overworld
+[01:33:26] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:33:26] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:33:27] [Server thread/INFO]: Grave at 22, 68, -24 was replaced with Block{minecraft:air}
+[01:33:27] [Server thread/INFO]: LilBigCheetos is retrieving their grave at 22, 68, -24
+[01:33:27] [Server thread/INFO]: LilBigCheetos retrieved the items from the grave
+[01:33:28] [Server thread/INFO]: Grave at 21, 69, -23 was replaced with Block{minecraft:air}
+[01:33:28] [Server thread/INFO]: SeteLHT is retrieving their grave at 21, 69, -23
+[01:33:28] [Server thread/INFO]: SeteLHT retrieved the items from the grave
+[01:33:37] [Netty Server IO #4/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:34:22] [Server thread/INFO]: PeperoH fell from a high place
+[01:34:22] [Server thread/INFO]: Grave spawned at: 123, -19, -146 | overworld
+[01:34:25] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:34:25] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:35:46] [Server thread/INFO]: SeteLHT has made the advancement [Sturdier Rocks]
+[01:36:22] [Server thread/INFO]: Grave at 123, -19, -146 was replaced with Block{minecraft:air}
+[01:36:22] [Server thread/INFO]: PeperoH is retrieving their grave at 123, -19, -146
+[01:36:22] [Server thread/INFO]: PeperoH retrieved the items from the grave
+[01:36:36] [Server thread/INFO]: OBruxeiro lost connection: Disconnected
+[01:36:36] [Server thread/INFO]: OBruxeiro left the game
+[01:36:39] [User Authenticator #17/INFO]: UUID of player OBruxeiro is c52623a5-728b-43fa-915b-b526935d2d06
+[01:36:39] [Server thread/INFO]: OBruxeiro[/152.244.68.187:52227] logged in with entity id 25206 at (20.53646487140445, 69.0, -11.655919777939193)
+[01:36:39] [Server thread/INFO]: Syncing config to OBruxeiro (c52623a5-728b-43fa-915b-b526935d2d06)
+[01:36:39] [Server thread/INFO]: OBruxeiro joined the game
+[01:36:39] [Netty Server IO #5/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:36:39] [Netty Server IO #5/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:36:39] [Netty Server IO #5/INFO]: Priority overwritten for player OBruxeiro. Normal: GRAVE / Robbing: INVENTORY
+[01:36:39] [Netty Server IO #5/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:36:39] [Netty Server IO #5/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:36:41] [Netty Server IO #5/INFO]: Player OBruxeiro joined with a matching carpet client
+[01:36:43] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Bonk!]
+[01:36:48] [Server thread/INFO]: Saving grave backup data
+[01:37:45] [Server thread/INFO]: SeteLHT was slain by LilBigCheetos
+[01:37:45] [Server thread/INFO]: Grave spawned at: 12, 69, -33 | overworld
+[01:37:46] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:37:46] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:37:53] [Server thread/INFO]: Grave at 12, 69, -33 was replaced with Block{minecraft:air}
+[01:37:53] [Server thread/INFO]: SeteLHT is retrieving their grave at 12, 69, -33
+[01:37:53] [Server thread/INFO]: SeteLHT retrieved the items from the grave
+[01:38:41] [Server thread/INFO]: OBruxeiro was slain by SeteLHT
+[01:38:41] [Server thread/INFO]: Grave spawned at: 21, 69, -18 | overworld
+[01:38:43] [Netty Server IO #5/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:38:43] [Netty Server IO #5/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:38:44] [Server thread/INFO]: Grave at 21, 69, -18 was replaced with Block{minecraft:air}
+[01:38:44] [Server thread/INFO]: OBruxeiro is retrieving their grave at 21, 69, -18
+[01:38:44] [Server thread/INFO]: OBruxeiro retrieved the items from the grave
+[01:40:40] [Server thread/INFO]: LilBigCheetos was slain by SeteLHT
+[01:40:40] [Server thread/INFO]: Grave spawned at: 22, 67, -31 | overworld
+[01:40:42] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:40:42] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:40:42] [Server thread/WARN]: LilBigCheetos moved too quickly! -2.159626016975352,2.0,20.479509991109328
+[01:40:46] [Server thread/INFO]: Grave at 22, 67, -31 was replaced with Block{minecraft:air}
+[01:40:46] [Server thread/INFO]: LilBigCheetos is retrieving their grave at 22, 67, -31
+[01:40:46] [Server thread/INFO]: LilBigCheetos retrieved the items from the grave
+[01:40:52] [Server thread/INFO]: LilBigCheetos was slain by SeteLHT
+[01:40:52] [Server thread/INFO]: Grave spawned at: 20, 69, -9 | overworld
+[01:40:53] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:40:53] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:40:55] [Server thread/INFO]: Grave at 20, 69, -9 was replaced with Block{minecraft:air}
+[01:40:55] [Server thread/INFO]: LilBigCheetos is retrieving their grave at 20, 69, -9
+[01:40:55] [Server thread/INFO]: LilBigCheetos retrieved the items from the grave
+[01:41:02] [Server thread/INFO]: LilBigCheetos was slain by SeteLHT
+[01:41:03] [Server thread/INFO]: Grave spawned at: 20, 69, -12 | overworld
+[01:41:03] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:41:03] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:41:04] [Server thread/INFO]: SeteLHT was slain by Daniel_Cadmo
+[01:41:04] [Server thread/INFO]: Grave spawned at: 19, 69, -11 | overworld
+[01:41:04] [Server thread/INFO]: Grave at 20, 69, -12 was replaced with Block{minecraft:air}
+[01:41:04] [Server thread/INFO]: LilBigCheetos is retrieving their grave at 20, 69, -12
+[01:41:04] [Server thread/INFO]: LilBigCheetos retrieved the items from the grave
+[01:41:06] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:41:06] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:41:07] [Server thread/INFO]: Grave at 19, 69, -11 was replaced with Block{minecraft:air}
+[01:41:07] [Server thread/INFO]: SeteLHT is retrieving their grave at 19, 69, -11
+[01:41:07] [Server thread/INFO]: SeteLHT retrieved the items from the grave
+[01:41:25] [Server thread/INFO]: PeperoH was slain by Zombie
+[01:41:25] [Server thread/INFO]: Grave spawned at: 46, 72, -105 | overworld
+[01:41:27] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:41:27] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:41:54] [Server thread/INFO]: Grave at 46, 72, -105 was replaced with Block{minecraft:air}
+[01:41:54] [Server thread/INFO]: PeperoH is retrieving their grave at 46, 72, -105
+[01:41:54] [Server thread/INFO]: PeperoH retrieved the items from the grave
+[01:41:59] [Server thread/INFO]: SeteLHT has made the advancement [Cuprum Bokum]
+[01:42:36] [Server thread/INFO]: SeteLHT was slain by LilBigCheetos
+[01:42:36] [Server thread/INFO]: Grave spawned at: 19, 69, -13 | overworld
+[01:42:37] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:42:37] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:42:39] [Server thread/INFO]: Grave at 19, 69, -13 was replaced with Block{minecraft:air}
+[01:42:39] [Server thread/INFO]: SeteLHT is retrieving their grave at 19, 69, -13
+[01:42:39] [Server thread/INFO]: SeteLHT retrieved the items from the grave
+[01:42:46] [Server thread/INFO]: LilBigCheetos was slain by OBruxeiro
+[01:42:46] [Server thread/INFO]: Grave spawned at: 21, 69, -14 | overworld
+[01:42:48] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:42:48] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:42:49] [Server thread/INFO]: SeteLHT was slain by OBruxeiro
+[01:42:49] [Server thread/INFO]: Grave spawned at: 21, 70, -23 | overworld
+[01:42:49] [Server thread/INFO]: Grave at 21, 69, -14 was replaced with Block{minecraft:air}
+[01:42:49] [Server thread/INFO]: LilBigCheetos is retrieving their grave at 21, 69, -14
+[01:42:49] [Server thread/INFO]: LilBigCheetos retrieved the items from the grave
+[01:42:50] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:42:50] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:42:50] [Server thread/WARN]: SeteLHT moved too quickly! -0.3780582467528646,2.5625,14.57593219497311
+[01:42:50] [Server thread/INFO]: PeperoH was slain by OBruxeiro
+[01:42:50] [Server thread/INFO]: Grave spawned at: 22, 69, -20 | overworld
+[01:42:51] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:42:51] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:42:54] [Server thread/INFO]: Grave at 22, 69, -20 was replaced with Block{minecraft:air}
+[01:42:54] [Server thread/INFO]: PeperoH is retrieving their grave at 22, 69, -20
+[01:42:54] [Server thread/INFO]: PeperoH retrieved the items from the grave
+[01:42:54] [Server thread/INFO]: Grave at 21, 70, -23 was replaced with Block{minecraft:air}
+[01:42:54] [Server thread/INFO]: SeteLHT is retrieving their grave at 21, 70, -23
+[01:42:54] [Server thread/INFO]: SeteLHT retrieved the items from the grave
+[01:43:05] [Server thread/INFO]: LilBigCheetos was slain by SeteLHT
+[01:43:05] [Server thread/INFO]: Grave spawned at: 21, 69, -11 | overworld
+[01:43:06] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:43:06] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:43:07] [Server thread/INFO]: Grave at 21, 69, -11 was replaced with Block{minecraft:air}
+[01:43:07] [Server thread/INFO]: LilBigCheetos is retrieving their grave at 21, 69, -11
+[01:43:07] [Server thread/INFO]: LilBigCheetos retrieved the items from the grave
+[01:44:14] [Server thread/INFO]: OBruxeiro has made the advancement [Isn't It Iron Pick]
+[01:44:28] [Server thread/INFO]: LilBigCheetos was slain by SeteLHT
+[01:44:28] [Server thread/INFO]: Grave spawned at: 20, 69, -34 | overworld
+[01:44:30] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:44:30] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:44:30] [Server thread/WARN]: LilBigCheetos moved too quickly! 0.6830303356276808,2.0,22.023331762474086
+[01:44:36] [Server thread/INFO]: Grave at 20, 69, -34 was replaced with Block{minecraft:air}
+[01:44:36] [Server thread/INFO]: LilBigCheetos is retrieving their grave at 20, 69, -34
+[01:44:36] [Server thread/INFO]: LilBigCheetos retrieved the items from the grave
+[01:44:39] [Server thread/INFO]: PeperoH has made the advancement [Isn't It Iron Pick]
+[01:44:43] [Server thread/INFO]: SeteLHT was slain by Daniel_Cadmo
+[01:44:43] [Server thread/INFO]: Grave spawned at: 21, 70, -24 | overworld
+[01:44:44] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:44:44] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:44:44] [Server thread/WARN]: SeteLHT moved too quickly! 0.23374633901210373,0.5625,10.353484453171426
+[01:44:50] [Server thread/INFO]: Grave at 21, 70, -24 was replaced with Block{minecraft:air}
+[01:44:50] [Server thread/INFO]: SeteLHT is retrieving their grave at 21, 70, -24
+[01:44:50] [Server thread/INFO]: SeteLHT retrieved the items from the grave
+[01:45:52] [Server thread/INFO]: LilBigCheetos was slain by SeteLHT
+[01:45:52] [Server thread/INFO]: Grave spawned at: 10, 69, -35 | overworld
+[01:45:52] [Netty Server IO #16/ERROR]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[01:45:52] [Netty Server IO #16/ERROR]: Combo count: 6 is dual wielding: false
+[01:45:52] [Netty Server IO #16/ERROR]: Main-hand stack: 0 air
+[01:45:52] [Netty Server IO #16/ERROR]: Off-hand stack: 0 air
+[01:45:52] [Netty Server IO #16/ERROR]: Selected slot server: 1 | client: 1
+[01:45:53] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:45:53] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:46:01] [Server thread/INFO]: Grave at 10, 69, -35 was replaced with Block{minecraft:air}
+[01:46:01] [Server thread/INFO]: LilBigCheetos is retrieving their grave at 10, 69, -35
+[01:46:01] [Server thread/INFO]: LilBigCheetos retrieved the items from the grave
+[01:46:06] [Server thread/INFO]: SeteLHT was shot by LilBigCheetos
+[01:46:06] [Server thread/INFO]: Grave spawned at: 12, 69, -33 | overworld
+[01:46:07] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:46:07] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:46:13] [Server thread/INFO]: Grave at 12, 69, -33 was replaced with Block{minecraft:air}
+[01:46:13] [Server thread/INFO]: SeteLHT is retrieving their grave at 12, 69, -33
+[01:46:13] [Server thread/INFO]: SeteLHT retrieved the items from the grave
+[01:46:21] [Server thread/INFO]: LilBigCheetos was slain by SeteLHT
+[01:46:21] [Server thread/INFO]: Grave spawned at: 20, 69, -40 | overworld
+[01:46:22] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:46:22] [Netty Server IO #16/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:46:28] [Server thread/INFO]: Grave at 20, 69, -40 was replaced with Block{minecraft:air}
+[01:46:28] [Server thread/INFO]: LilBigCheetos is retrieving their grave at 20, 69, -40
+[01:46:28] [Server thread/INFO]: LilBigCheetos retrieved the items from the grave
+[01:46:36] [Server thread/INFO]: SeteLHT was shot by LilBigCheetos
+[01:46:36] [Server thread/INFO]: Grave spawned at: 17, 69, -37 | overworld
+[01:46:37] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:46:37] [Netty Server IO #26/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:46:37] [Server thread/WARN]: SeteLHT moved too quickly! 5.488342833374926,0.5625,24.579970519920373
+[01:46:48] [Server thread/INFO]: Saving grave backup data
+[01:46:56] [Server thread/INFO]: Grave at 17, 69, -37 was replaced with Block{minecraft:air}
+[01:46:56] [Server thread/INFO]: SeteLHT is retrieving their grave at 17, 69, -37
+[01:46:56] [Server thread/INFO]: SeteLHT retrieved the items from the grave
+[01:47:24] [Server thread/INFO]: PeperoH has made the advancement [Hot Stuff]
+[01:47:30] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Harnessed Hydraulics]
+[01:48:02] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Shifting Gears]
+[01:48:17] [Server thread/INFO]: LilBigCheetos has made the advancement [Crops of the Wild]
+[01:52:40] [Server thread/INFO]: SeteLHT has made the advancement [Hunt and Gather]
+[01:54:21] [Server thread/INFO]: SeteLHT has made the advancement [A Seedy Place]
+[01:55:02] [Netty Server IO #5/ERROR]: Exception occurred in netty pipeline
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[01:55:02] [Server thread/INFO]: OBruxeiro lost connection: Disconnected
+[01:55:02] [Server thread/INFO]: OBruxeiro left the game
+[01:56:02] [Server thread/INFO]: LilBigCheetos lost connection: Disconnected
+[01:56:02] [Server thread/INFO]: LilBigCheetos left the game
+[01:56:03] [User Authenticator #18/INFO]: UUID of player LilBigCheetos is 9e9b4db4-4ae6-4383-9a3c-0407fd2f45db
+[01:56:04] [Server thread/INFO]: LilBigCheetos[/127.0.0.1:56253] logged in with entity id 28357 at (12.295997166376862, 69.0, -31.199141266088013)
+[01:56:04] [Server thread/INFO]: Syncing config to LilBigCheetos (9e9b4db4-4ae6-4383-9a3c-0407fd2f45db)
+[01:56:04] [Server thread/INFO]: LilBigCheetos joined the game
+[01:56:04] [Netty Server IO #7/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:56:04] [Netty Server IO #7/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:56:04] [Netty Server IO #7/INFO]: Priority overwritten for player LilBigCheetos. Normal: GRAVE / Robbing: INVENTORY
+[01:56:04] [Netty Server IO #7/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:56:04] [Netty Server IO #7/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:56:04] [Netty Server IO #7/INFO]: Player LilBigCheetos joined with a matching carpet client
+[01:56:48] [Server thread/INFO]: Saving grave backup data
+[01:56:59] [Server thread/INFO]: PeperoH fell from a high place
+[01:56:59] [Server thread/INFO]: Grave spawned at: 21, 67, -29 | overworld
+[01:57:01] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:57:01] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[01:57:04] [Server thread/INFO]: Grave at 21, 67, -29 was replaced with Block{minecraft:air}
+[01:57:04] [Server thread/INFO]: PeperoH is retrieving their grave at 21, 67, -29
+[01:57:04] [Server thread/INFO]: PeperoH retrieved the items from the grave
+[01:57:33] [Server thread/INFO]: PeperoH has made the advancement [Tech Reborn]
+[02:00:47] [User Authenticator #19/INFO]: UUID of player OBruxeiro is c52623a5-728b-43fa-915b-b526935d2d06
+[02:00:47] [Server thread/INFO]: OBruxeiro[/152.244.68.187:52437] logged in with entity id 29120 at (15.455868554564946, 71.0, -100.21514616432552)
+[02:00:47] [Server thread/INFO]: Syncing config to OBruxeiro (c52623a5-728b-43fa-915b-b526935d2d06)
+[02:00:47] [Server thread/INFO]: OBruxeiro joined the game
+[02:00:47] [Netty Server IO #8/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:00:47] [Netty Server IO #8/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:00:47] [Netty Server IO #8/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:00:47] [Netty Server IO #8/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:00:50] [Netty Server IO #8/INFO]: Priority overwritten for player OBruxeiro. Normal: GRAVE / Robbing: INVENTORY
+[02:00:51] [Netty Server IO #8/INFO]: Player OBruxeiro joined with a matching carpet client
+[02:01:31] [Server thread/INFO]: LilBigCheetos has made the advancement [Harnessed Hydraulics]
+[02:02:16] [Server thread/WARN]: OBruxeiro moved too quickly! -42.87596736452063,11.0,125.05563037440041
+[02:03:04] [Server thread/WARN]: OBruxeiro moved too quickly! 35.06378493366472,3.0,49.79147476616774
+[02:03:17] [Server thread/INFO]: PeperoH was slain by Zombie
+[02:03:17] [Server thread/INFO]: Grave spawned at: -35, 63, 3 | overworld
+[02:03:19] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:03:19] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:04:01] [Server thread/INFO]: Grave at -35, 63, 3 was replaced with Block{minecraft:air}
+[02:04:01] [Server thread/INFO]: PeperoH is retrieving their grave at -35, 63, 3
+[02:04:01] [Server thread/INFO]: PeperoH retrieved the items from the grave
+[02:05:15] [Server thread/INFO]: SeteLHT lost connection: Disconnected
+[02:05:15] [Server thread/INFO]: SeteLHT left the game
+[02:05:21] [User Authenticator #20/INFO]: UUID of player SeteLHT is f0b74fe1-c91e-4879-ac8b-b1f3578f2545
+[02:05:21] [Server thread/INFO]: SeteLHT[/186.220.196.0:12556] logged in with entity id 30335 at (13.816162011227835, 69.0, -33.38815812505182)
+[02:05:21] [Server thread/INFO]: Syncing config to SeteLHT (f0b74fe1-c91e-4879-ac8b-b1f3578f2545)
+[02:05:21] [Server thread/INFO]: SeteLHT joined the game
+[02:05:21] [Netty Server IO #10/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:05:21] [Netty Server IO #10/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:05:22] [Netty Server IO #10/INFO]: Priority overwritten for player SeteLHT. Normal: GRAVE / Robbing: INVENTORY
+[02:05:22] [Netty Server IO #10/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:05:22] [Netty Server IO #10/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:05:22] [Server thread/INFO]: PeperoH has made the advancement [Crops of the Wild]
+[02:05:23] [Netty Server IO #10/INFO]: Player SeteLHT joined with a matching carpet client
+[02:05:37] [Server thread/WARN]: OBruxeiro moved too quickly! -117.27126002782762,1.0,151.4889523054638
+[02:05:47] [Server thread/WARN]: OBruxeiro moved too quickly! -59.703343146288034,0.0,96.08817110343762
+[02:06:39] [Server thread/WARN]: OBruxeiro moved too quickly! -190.5785295221903,3.0,-111.29933388397245
+[02:06:48] [Server thread/INFO]: Saving grave backup data
+[02:07:17] [Server thread/INFO]: SeteLHT lost connection: Disconnected
+[02:07:17] [Server thread/INFO]: SeteLHT left the game
+[02:07:49] [Server thread/INFO]: LilBigCheetos has made the advancement [Tapping Time]
+[02:08:33] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Tapping Time]
+[02:08:51] [Server thread/INFO]: PeperoH lost connection: Disconnected
+[02:08:51] [Server thread/INFO]: PeperoH left the game
+[02:09:18] [Server thread/INFO]: LilBigCheetos has made the advancement [Nectar of the Tree]
+[02:09:40] [Server thread/INFO]: OBruxeiro has made the advancement [Ol' Betsy]
+[02:09:41] [Server thread/INFO]: OBruxeiro has made the advancement [Take Aim]
+[02:09:48] [Server thread/INFO]: OBruxeiro has made the advancement [Who's the Pillager Now?]
+[02:10:01] [Server thread/INFO]: OBruxeiro was shot by Pillager
+[02:10:01] [Server thread/INFO]: Grave spawned at: -290, 64, 240 | overworld
+[02:10:02] [Netty Server IO #8/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:10:02] [Netty Server IO #8/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:10:05] [Server thread/WARN]: OBruxeiro moved too quickly! -314.5,-5.5625,239.5
+[02:10:08] [Server thread/INFO]: Grave at -290, 64, 240 was replaced with Block{minecraft:air}
+[02:10:08] [Server thread/INFO]: OBruxeiro is retrieving their grave at -290, 64, 240
+[02:10:08] [Server thread/INFO]: OBruxeiro retrieved the items from the grave
+[02:11:19] [Server thread/INFO]: LilBigCheetos has made the advancement [Disme A Dozen]
+[02:11:47] [Server thread/INFO]: Villager class_1646['Technician'/216, l='ServerLevel[world]', x=138.61, y=21.00, z=185.70] died, message: 'Technician was slain by Zombie'
+[02:11:55] [Server thread/INFO]: LilBigCheetos was slain by Lion
+[02:11:55] [Server thread/INFO]: Grave spawned at: 133, 75, 186 | overworld
+[02:11:56] [Netty Server IO #7/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:11:56] [Netty Server IO #7/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:11:56] [Server thread/WARN]: LilBigCheetos moved too quickly! -112.14848518195942,-6.1875,-194.88749998807907
+[02:12:12] [Server thread/WARN]: LilBigCheetos moved too quickly! 113.21288397525186,-1.0,201.0010139418451
+[02:12:12] [Server thread/WARN]: LilBigCheetos moved too quickly! 113.21288397525186,-1.0,201.0010139418451
+[02:12:15] [Server thread/INFO]: Grave at 133, 75, 186 was replaced with Block{minecraft:air}
+[02:12:15] [Server thread/INFO]: LilBigCheetos is retrieving their grave at 133, 75, 186
+[02:12:15] [Server thread/INFO]: LilBigCheetos retrieved the items from the grave
+[02:12:32] [Server thread/INFO]: OBruxeiro has made the advancement [Voluntary Exile]
+[02:13:39] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=63, z=98}
+[02:13:39] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=63, z=97}
+[02:13:39] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=63, z=100}
+[02:13:39] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=63, z=96}
+[02:13:39] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=63, z=103}
+[02:13:40] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=63, z=89}
+[02:13:40] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=63, z=92}
+[02:13:40] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=63, z=91}
+[02:13:40] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=63, z=94}
+[02:13:40] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=64, z=81}
+[02:13:40] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=64, z=80}
+[02:13:40] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=64, z=83}
+[02:13:40] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=64, z=84}
+[02:13:40] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=63, z=86}
+[02:13:40] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=63, z=88}
+[02:13:52] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=64, z=74}
+[02:13:52] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=64, z=78}
+[02:13:52] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=64, z=64}
+[02:13:52] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=64, z=66}
+[02:13:52] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=64, z=70}
+[02:13:52] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=64, z=73}
+[02:13:55] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=64, z=61}
+[02:13:55] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=64, z=62}
+[02:13:55] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=64, z=63}
+[02:13:55] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=66, z=55}
+[02:13:55] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=66, z=56}
+[02:13:55] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-698, y=65, z=58}
+[02:13:59] [Server thread/INFO]: OBruxeiro has reached the goal [Skyslime Island]
+[02:14:10] [Server thread/WARN]: OBruxeiro moved too quickly! -112.04366265882527,-81.0,7.879035814805803
+[02:14:10] [Server thread/WARN]: OBruxeiro moved too quickly! -112.04366265882527,-81.0,7.879035814805803
+[02:14:10] [Server thread/WARN]: Daniel_Cadmo moved too quickly! 40.30000001192093,1.0,27.98599642258445
+[02:14:15] [Server thread/INFO]: Daniel_Cadmo burned to death
+[02:14:15] [Server thread/INFO]: Grave spawned at: 167, 66, 104 | overworld
+[02:14:16] [Netty Server IO #3/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:14:16] [Netty Server IO #3/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:14:20] [Server thread/WARN]: Daniel_Cadmo moved too quickly! 145.0,-3.5625,114.0
+[02:14:21] [Server thread/INFO]: Grave at 167, 66, 104 was replaced with Block{minecraft:air}
+[02:14:21] [Server thread/INFO]: Daniel_Cadmo is retrieving their grave at 167, 66, 104
+[02:14:21] [Server thread/INFO]: Daniel_Cadmo retrieved the items from the grave
+[02:14:27] [Server thread/WARN]: Daniel_Cadmo moved too quickly! 69.75354869520021,-2.0,83.12465206797246
+[02:14:28] [Server thread/WARN]: OBruxeiro moved too quickly! 627.3000000119209,6.0,321.30000001192093
+[02:14:28] [Server thread/WARN]: OBruxeiro moved too quickly! 627.3000000119209,6.0,321.30000001192093
+[02:14:31] [Server thread/WARN]: Daniel_Cadmo moved too quickly! -110.0,0.0,6.0
+[02:14:37] [Server thread/WARN]: Daniel_Cadmo moved too quickly! -48.0,17.0,-57.0
+[02:14:37] [Server thread/WARN]: Daniel_Cadmo moved too quickly! -48.0,17.0,-57.0
+[02:14:41] [Server thread/WARN]: Daniel_Cadmo moved too quickly! 48.0,-19.0,-47.0
+[02:14:46] [Server thread/WARN]: Daniel_Cadmo moved too quickly! -78.0,11.0,-115.0
+[02:14:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-260, y=71, z=620}
+[02:14:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-260, y=71, z=622}
+[02:14:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-260, y=71, z=623}
+[02:14:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-260, y=70, z=617}
+[02:14:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-260, y=71, z=628}
+[02:14:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-260, y=71, z=627}
+[02:14:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-260, y=71, z=630}
+[02:14:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-260, y=71, z=629}
+[02:14:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-260, y=71, z=632}
+[02:14:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-260, y=71, z=631}
+[02:14:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-260, y=71, z=634}
+[02:14:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-260, y=71, z=633}
+[02:14:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-260, y=71, z=624}
+[02:14:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-260, y=71, z=626}
+[02:14:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-260, y=71, z=625}
+[02:14:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-260, y=71, z=636}
+[02:14:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-260, y=71, z=635}
+[02:14:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-260, y=71, z=638}
+[02:14:54] [Server thread/WARN]: Tried to load a block entity for block Block{create:track}[shape=zo,turn=false,waterlogged=false] but failed at location class_2338{x=-260, y=70, z=641}
+[02:15:32] [Server thread/INFO]: OBruxeiro fell from a high place
+[02:15:32] [Server thread/INFO]: Grave spawned at: 24, 67, -38 | overworld
+[02:15:33] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Mixing It Up]
+[02:15:33] [Netty Server IO #8/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:15:33] [Netty Server IO #8/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:15:38] [Server thread/INFO]: Grave at 24, 67, -38 was replaced with Block{minecraft:air}
+[02:15:38] [Server thread/INFO]: OBruxeiro is retrieving their grave at 24, 67, -38
+[02:15:38] [Server thread/INFO]: OBruxeiro retrieved the items from the grave
+[02:16:02] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Not So Sticky]
+[02:16:10] [Server thread/INFO]: LilBigCheetos has made the advancement [Not So Sticky]
+[02:16:19] [Server thread/INFO]: LilBigCheetos has made the advancement [Ol' Betsy]
+[02:16:48] [Server thread/INFO]: Saving grave backup data
+[02:18:50] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Embrace the Grind]
+[02:19:28] [Server thread/INFO]: LilBigCheetos was slain by Enderman
+[02:19:28] [Server thread/INFO]: Grave spawned at: 14, 74, -33 | overworld
+[02:19:29] [Netty Server IO #7/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:19:29] [Netty Server IO #7/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:19:34] [Server thread/INFO]: Grave at 14, 74, -33 was replaced with Block{minecraft:air}
+[02:19:34] [Server thread/INFO]: LilBigCheetos is retrieving their grave at 14, 74, -33
+[02:19:34] [Server thread/INFO]: LilBigCheetos retrieved the items from the grave
+[02:20:22] [Server thread/INFO]: LilBigCheetos has made the advancement [Kitted Out]
+[02:20:26] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Nectar of the Tree]
+[02:21:11] [Server thread/INFO]: Daniel_Cadmo has made the advancement [Kitted Out]
+[02:22:46] [Server thread/INFO]: Daniel_Cadmo lost connection: Disconnected
+[02:22:46] [Server thread/INFO]: Daniel_Cadmo left the game
+[02:22:50] [User Authenticator #21/INFO]: UUID of player Daniel_Cadmo is 195de06f-89a7-4f8f-b6ae-856e547cf26b
+[02:22:50] [Server thread/INFO]: Daniel_Cadmo[/189.121.114.105:62879] logged in with entity id 38563 at (10.539175937986318, 69.0, -32.96731500112446)
+[02:22:50] [Server thread/INFO]: Syncing config to Daniel_Cadmo (195de06f-89a7-4f8f-b6ae-856e547cf26b)
+[02:22:50] [Server thread/INFO]: Daniel_Cadmo joined the game
+[02:22:50] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:22:50] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:22:50] [Netty Server IO #14/INFO]: Priority overwritten for player Daniel_Cadmo. Normal: GRAVE / Robbing: INVENTORY
+[02:22:50] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:22:50] [Netty Server IO #14/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:22:51] [Netty Server IO #14/INFO]: Player Daniel_Cadmo joined with a matching carpet client
+[02:23:48] [Server thread/INFO]: OBruxeiro lost connection: Disconnected
+[02:23:48] [Server thread/INFO]: OBruxeiro left the game
+[02:23:50] [User Authenticator #22/INFO]: UUID of player OBruxeiro is c52623a5-728b-43fa-915b-b526935d2d06
+[02:23:50] [Server thread/INFO]: OBruxeiro[/152.244.68.187:52544] logged in with entity id 38724 at (12.817163613168093, 69.0, -13.039496362938879)
+[02:23:50] [Server thread/INFO]: Syncing config to OBruxeiro (c52623a5-728b-43fa-915b-b526935d2d06)
+[02:23:50] [Server thread/INFO]: OBruxeiro joined the game
+[02:23:51] [Netty Server IO #15/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:23:51] [Netty Server IO #15/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:23:51] [Netty Server IO #15/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@231a7c91 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:23:51] [Netty Server IO #15/ERROR]: Could not serialize net.minecraftforge.server.command.ModIdArgument@51896270 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[02:23:51] [Netty Server IO #15/INFO]: Priority overwritten for player OBruxeiro. Normal: GRAVE / Robbing: INVENTORY
+[02:23:52] [Netty Server IO #15/INFO]: Player OBruxeiro joined with a matching carpet client
+[02:26:48] [Server thread/INFO]: Saving grave backup data
+[02:28:51] [Server thread/INFO]: LilBigCheetos lost connection: Disconnected
+[02:28:51] [Server thread/INFO]: LilBigCheetos left the game
+[02:29:29] [Server thread/INFO]: OBruxeiro lost connection: Disconnected
+[02:29:29] [Server thread/INFO]: OBruxeiro left the game
+[02:30:20] [Server thread/INFO]: Daniel_Cadmo lost connection: Timed out
+[02:30:20] [Server thread/INFO]: Daniel_Cadmo left the game
+[02:30:46] [Server thread/INFO]: Stopping the server
+[02:30:46] [Server thread/INFO]: Stopping server
+[02:30:46] [Server thread/INFO]: Saving players
+[02:30:46] [Server thread/INFO]: Saving worlds
+[02:30:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:30:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio_orbit
+[02:30:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02:30:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury
+[02:30:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02:30:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon_orbit
+[02:30:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon
+[02:30:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[02:30:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars
+[02:30:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio
+[02:30:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars_orbit
+[02:30:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury_orbit
+[02:30:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:earth_orbit
+[02:30:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus
+[02:30:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus_orbit
+[02:30:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:30:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
+[02:30:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:30:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[02:30:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:30:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[02:30:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[02:30:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[02:30:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[02:30:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
+[02:30:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[02:30:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[02:30:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
+[02:30:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[02:30:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[02:30:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:30:46] [Server thread/INFO]: closing rrp automobility:data
+[02:30:46] [Server thread/INFO]: closing rrp minecraft:phonos_data
+[02:30:46] [Server thread/INFO]: closing rrp automobility:data
+[02:30:46] [Server thread/INFO]: closing rrp minecraft:phonos_data
+[02:30:46] [Server thread/INFO]: Shutting down scheduler thread
+[02:30:46] [Server thread/INFO]: Scheduler ftbbackups2_$_NON_CLUSTERED shutting down.
+[02:30:46] [Server thread/INFO]: Scheduler ftbbackups2_$_NON_CLUSTERED paused.
+[02:30:46] [Server thread/INFO]: Scheduler ftbbackups2_$_NON_CLUSTERED shutdown complete.
+[02:30:46] [Server thread/INFO]: Shutting down the config watcher executor
+[02:30:46] [Server thread/INFO]: Shutting down backup cleaning executor
+[02:30:46] [Server thread/INFO]: Shutting down backup executor
+[02:30:46] [Server thread/INFO]: =========Checking everything is shut down============
+[02:30:46] [Server thread/INFO]: Scheduler Shutdown:true
+[02:30:46] [Server thread/INFO]: Config watcher Shutdown:true
+[02:30:46] [Server thread/INFO]: Cleaner watcher Shutdown:true
+[02:30:46] [Server thread/INFO]: Backup Executor Shutdown:true
+[02:30:46] [Server thread/INFO]: ========Shutdown completed, FTB Backups has now finished shutting down==========
+[02:30:46] [Server thread/INFO]: Shutting down map thread
+[02:30:48] [Thread-2/INFO]: =========Checking everything is shut down============
+[02:30:48] [Thread-2/INFO]: Scheduler Shutdown:true
+[02:30:48] [Thread-2/INFO]: Config watcher Shutdown:true
+[02:30:48] [Thread-2/INFO]: Cleaner watcher Shutdown:true
+[02:30:48] [Thread-2/INFO]: Backup Executor Shutdown:true
+[02:30:48] [Thread-2/INFO]: ========Shutdown completed, FTB Backups has now finished shutting down==========

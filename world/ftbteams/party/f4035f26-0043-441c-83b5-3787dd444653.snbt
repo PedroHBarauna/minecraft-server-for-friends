@@ -1,0 +1,40 @@
+{
+	id: "f4035f26-0043-441c-83b5-3787dd444653"
+	type: "party"
+	owner: "c52623a5-728b-43fa-915b-b526935d2d06"
+	ranks: {
+		f0b74fe1-c91e-4879-ac8b-b1f3578f2545: "member"
+		c52623a5-728b-43fa-915b-b526935d2d06: "owner"
+		9e9b4db4-4ae6-4383-9a3c-0407fd2f45db: "member"
+		3661be16-8a31-454b-a978-acf3bd92020f: "member"
+		195de06f-89a7-4f8f-b6ae-856e547cf26b: "member"
+	}
+	properties: {
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_fake_players": 0b
+		"ftbchunks:allow_named_fake_players": [ ]
+		"ftbchunks:allow_fake_players_by_id": 1b
+		"ftbchunks:block_edit_and_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:nonliving_entity_attack_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+		"ftbteams:display_name": "OBruxeiro's Party"
+		"ftbteams:description": ""
+		"ftbteams:color": "#83FF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1686279987448L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"OBruxeiro\"}]}" }
+		{ from: "c52623a5-728b-43fa-915b-b526935d2d06", date: 1686279987453L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"Daniel_Cadmo\"}]}" }
+		{ from: "c52623a5-728b-43fa-915b-b526935d2d06", date: 1686279987453L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"SeteLHT\"}]}" }
+		{ from: "c52623a5-728b-43fa-915b-b526935d2d06", date: 1686279987453L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"LilBigCheetos\"}]}" }
+		{ from: "c52623a5-728b-43fa-915b-b526935d2d06", date: 1686279987453L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"PeperoH\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1686279993013L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Daniel_Cadmo\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1686279994155L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"SeteLHT\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1686279997019L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"LilBigCheetos\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1686280003598L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"PeperoH\"}]}" }
+	]
+	extra: { }
+}

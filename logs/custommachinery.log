@@ -1,0 +1,105 @@
+[23:46:20.898][INFO]: Parsing all .json files in machines folder.
+[23:46:20.902][INFO]: Parsing all .json files in upgrades folder.
+[23:46:20.928][INFO]: Finished parsing .json files in machines folder.
+[23:46:20.931][INFO]: Finished parsing .json files in upgrades folder.
+[23:46:24.736][INFO]: Parsing recipe json: createastral:implosion_compressor/gravel
+[23:46:24.739][ERROR]: Error while deserializing Requirement: ""
+Input does not contain a key [type]: MapLike[{"keys":{"a":"indrev:frame","b":"createastral:electrum_heating_coil","c":"createastral:sturdy_sheet_block","d":"indrev:controller","e":"indrev:intake"},"pattern":[["aaa","aaa","ama"],["bcb","cbc","bdb"],["ccc","cec","ccc"]]}]
+[23:46:24.745][INFO]: Parsing recipe json: createastral:implosion_compressor/gravel
+[23:46:24.745][ERROR]: Error while deserializing Requirement: ""
+Input does not contain a key [type]: MapLike[{"keys":{"a":"indrev:frame","b":"createastral:electrum_heating_coil","c":"createastral:sturdy_sheet_block","d":"indrev:controller","e":"indrev:intake"},"pattern":[["aaa","aaa","ama"],["bcb","cbc","bdb"],["ccc","cec","ccc"]]}]
+[23:46:24.970][INFO]: Parsing recipe json: createastral:electrolyser/oxygen
+[23:46:25.003][INFO]: Successfully read recipe json: createastral:electrolyser/oxygen
+[23:46:25.026][INFO]: Parsing recipe json: createastral:electrolyser/oxygenfallback
+[23:46:25.026][INFO]: Successfully read recipe json: createastral:electrolyser/oxygenfallback
+[23:46:29.008][INFO]: Reading Custom Machinery Machines...
+[23:46:29.010][INFO]: Parsing machine json: createastral:electrolyser in datapack: zLaky Core
+[23:46:29.026][INFO]: Successfully parsed machine json: createastral:electrolyser
+[23:46:29.027][INFO]: Parsing machine json: createastral:implosion_compressor in datapack: zLaky Core
+[23:46:29.028][INFO]: Successfully parsed machine json: createastral:implosion_compressor
+[23:46:29.028][INFO]: Finished creating custom machines.
+[23:46:29.028][INFO]: Reading Custom Machinery Upgrades json
+[23:46:29.029][INFO]: No machine upgrade json found.
+[23:46:29.029][INFO]: Collecting machine upgrades with kubeJS.
+[23:46:29.029][INFO]: No machine upgrades found with kubejs
+[23:46:29.029][INFO]: Finished creating custom machine upgrades.
+[23:46:49.079][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[23:46:49.080][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[23:46:49.307][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[23:46:49.308][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
+[23:47:28.261][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[23:47:28.262][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[23:47:28.326][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[23:47:28.326][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
+[23:48:11.329][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[23:48:11.330][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[23:48:11.371][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[23:48:11.371][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
+[23:48:47.274][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[23:48:47.275][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[23:48:47.314][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[23:48:47.314][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
+[23:50:37.640][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[23:50:37.640][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[23:50:37.693][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[23:50:37.693][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
+[23:52:08.353][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[23:52:08.354][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[23:52:08.393][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[23:52:08.393][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
+[00:01:44.233][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[00:01:44.234][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[00:01:44.270][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[00:01:44.270][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
+[00:25:11.243][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[00:25:11.244][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[00:25:11.287][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[00:25:11.287][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
+[00:30:31.956][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[00:30:31.956][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[00:30:31.995][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[00:30:31.996][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
+[00:30:42.639][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[00:30:42.639][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[00:30:42.670][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[00:30:42.670][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
+[01:02:19.285][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[01:02:19.285][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[01:02:19.315][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[01:02:19.315][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
+[01:10:41.898][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[01:10:41.898][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[01:10:41.941][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[01:10:41.941][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
+[01:20:52.542][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[01:20:52.542][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[01:20:52.583][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[01:20:52.584][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
+[01:24:03.404][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[01:24:03.404][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[01:24:03.469][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[01:24:03.469][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
+[01:36:39.542][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[01:36:39.542][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[01:36:39.577][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[01:36:39.577][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
+[01:56:04.093][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[01:56:04.094][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[01:56:04.133][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[01:56:04.133][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
+[02:00:47.262][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[02:00:47.263][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[02:00:47.312][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[02:00:47.312][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
+[02:05:21.754][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[02:05:21.754][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[02:05:21.794][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[02:05:21.794][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
+[02:22:50.144][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[02:22:50.144][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[02:22:50.183][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[02:22:50.183][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
+[02:23:50.992][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[02:23:50.993][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[02:23:51.029][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[02:23:51.029][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
