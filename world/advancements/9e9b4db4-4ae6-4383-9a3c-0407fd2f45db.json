@@ -1544,12 +1544,6 @@
     },
     "done": true
   },
-  "techreborn:recipes/crafting_table/parts/iridium_neutron_reflector": {
-    "criteria": {
-      "has_the_recipe": "2023-06-09 02:09:18 -0300"
-    },
-    "done": true
-  },
   "techreborn:recipes/techreborn.item_group/crafting_table/small_dust/almandine_small_dust_from_dust": {
     "criteria": {
       "has_the_recipe": "2023-06-09 02:09:17 -0300"
@@ -1559,6 +1553,12 @@
   "techreborn:recipes/crafting_table/upgrade/energy_storage_upgrade": {
     "criteria": {
       "has_the_recipe": "2023-06-09 02:09:17 -0300"
+    },
+    "done": true
+  },
+  "techreborn:recipes/crafting_table/parts/iridium_neutron_reflector": {
+    "criteria": {
+      "has_the_recipe": "2023-06-09 02:09:18 -0300"
     },
     "done": true
   },
@@ -3009,15 +3009,15 @@
     },
     "done": true
   },
-  "techreborn:recipes/crafting_table/unit/tank/quantum_tank_unit": {
-    "criteria": {
-      "has_the_recipe": "2023-06-09 02:09:18 -0300"
-    },
-    "done": true
-  },
   "techreborn:recipes/techreborn.item_group/crafting_table/storage_block/platinum_blocks_stairs": {
     "criteria": {
       "has_the_recipe": "2023-06-09 02:09:17 -0300"
+    },
+    "done": true
+  },
+  "techreborn:recipes/crafting_table/unit/tank/quantum_tank_unit": {
+    "criteria": {
+      "has_the_recipe": "2023-06-09 02:09:18 -0300"
     },
     "done": true
   },
@@ -3051,15 +3051,15 @@
     },
     "done": true
   },
-  "techreborn:recipes/crafting_table/tool/basic_jackhammer": {
-    "criteria": {
-      "has_the_recipe": "2023-06-09 02:09:18 -0300"
-    },
-    "done": true
-  },
   "techreborn:recipes/crafting_table/machine_block/basic_machine_casing_alt_alt": {
     "criteria": {
       "has_the_recipe": "2023-06-09 02:09:17 -0300"
+    },
+    "done": true
+  },
+  "techreborn:recipes/crafting_table/tool/basic_jackhammer": {
+    "criteria": {
+      "has_the_recipe": "2023-06-09 02:09:18 -0300"
     },
     "done": true
   },
@@ -3165,15 +3165,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cyan_stained_glass": {
-    "criteria": {
-      "has_glass": "2023-06-09 02:20:11 -0300"
-    },
-    "done": true
-  },
   "techreborn:recipes/techreborn.item_group/crafting_table/armor/sapphire_leggings": {
     "criteria": {
       "has_the_recipe": "2023-06-09 02:09:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-06-09 02:20:11 -0300"
     },
     "done": true
   },
@@ -3225,15 +3225,15 @@
     },
     "done": true
   },
-  "techreborn:recipes/crafting_table/unit/tank/quantum_tank_unit_from_industrial": {
-    "criteria": {
-      "has_the_recipe": "2023-06-09 02:09:18 -0300"
-    },
-    "done": true
-  },
   "techreborn:recipes/techreborn.item_group/crafting_table/small_dust/charcoal_small_dust_from_dust": {
     "criteria": {
       "has_the_recipe": "2023-06-09 02:09:17 -0300"
+    },
+    "done": true
+  },
+  "techreborn:recipes/crafting_table/unit/tank/quantum_tank_unit_from_industrial": {
+    "criteria": {
+      "has_the_recipe": "2023-06-09 02:09:18 -0300"
     },
     "done": true
   },
@@ -3827,15 +3827,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/black_stained_glass": {
-    "criteria": {
-      "has_glass": "2023-06-09 02:20:11 -0300"
-    },
-    "done": true
-  },
   "techreborn:recipes/crafting_table/parts/nak_coolant_cell_60k_alt": {
     "criteria": {
       "has_the_recipe": "2023-06-09 02:09:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-06-09 02:20:11 -0300"
     },
     "done": true
   },
@@ -4721,19 +4721,13 @@
     },
     "done": true
   },
-  "techreborn:recipes/techreborn.item_group/crafting_table/dust/galena_dust_from_small": {
-    "criteria": {
-      "has_the_recipe": "2023-06-09 02:09:18 -0300"
-    },
-    "done": true
-  },
   "techreborn:recipes/techreborn.item_group/crafting_table/tool/peridot_hoe": {
     "criteria": {
       "has_the_recipe": "2023-06-09 02:09:17 -0300"
     },
     "done": true
   },
-  "techreborn:recipes/crafting_table/battery/lapotron_crystal": {
+  "techreborn:recipes/techreborn.item_group/crafting_table/dust/galena_dust_from_small": {
     "criteria": {
       "has_the_recipe": "2023-06-09 02:09:18 -0300"
     },
@@ -4742,6 +4736,12 @@
   "techreborn:recipes/crafting_table/storage_block/iridium_reinforced_stone_storage_block": {
     "criteria": {
       "has_the_recipe": "2023-06-09 02:09:17 -0300"
+    },
+    "done": true
+  },
+  "techreborn:recipes/crafting_table/battery/lapotron_crystal": {
+    "criteria": {
+      "has_the_recipe": "2023-06-09 02:09:18 -0300"
     },
     "done": true
   },
@@ -4757,15 +4757,15 @@
     },
     "done": true
   },
-  "create:recipes/create.base/crafting/schematics/empty_schematic": {
-    "criteria": {
-      "has_item": "2023-06-09 02:11:04 -0300"
-    },
-    "done": true
-  },
   "techreborn:recipes/crafting_table/machine/vacuum_freezer": {
     "criteria": {
       "has_the_recipe": "2023-06-09 02:09:18 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/schematics/empty_schematic": {
+    "criteria": {
+      "has_item": "2023-06-09 02:11:04 -0300"
     },
     "done": true
   },
@@ -5978,15 +5978,15 @@
     },
     "done": true
   },
-  "techreborn:recipes/techreborn.item_group/crafting_table/storage_block/invar_blocks_slab": {
-    "criteria": {
-      "has_the_recipe": "2023-06-09 02:09:18 -0300"
-    },
-    "done": true
-  },
   "techreborn:recipes/techreborn.item_group/crafting_table/small_dust/magnesium_small_dust_from_dust": {
     "criteria": {
       "has_the_recipe": "2023-06-09 02:09:17 -0300"
+    },
+    "done": true
+  },
+  "techreborn:recipes/techreborn.item_group/crafting_table/storage_block/invar_blocks_slab": {
+    "criteria": {
+      "has_the_recipe": "2023-06-09 02:09:18 -0300"
     },
     "done": true
   },
@@ -6593,15 +6593,15 @@
     },
     "done": true
   },
-  "createdeco:recipes/createdeco.metals/gold_mesh_fence": {
-    "criteria": {
-      "has_item": "2023-06-09 02:18:10 -0300"
-    },
-    "done": true
-  },
   "techreborn:recipes/techreborn.item_group/crafting_table/storage_block/raw_raw_tungsten_storage_block": {
     "criteria": {
       "has_the_recipe": "2023-06-09 02:09:18 -0300"
+    },
+    "done": true
+  },
+  "createdeco:recipes/createdeco.metals/gold_mesh_fence": {
+    "criteria": {
+      "has_item": "2023-06-09 02:18:10 -0300"
     },
     "done": true
   },
@@ -7277,15 +7277,15 @@
     },
     "done": true
   },
-  "techreborn:recipes/crafting_table/machine/fluid_replicator": {
-    "criteria": {
-      "has_the_recipe": "2023-06-09 02:09:18 -0300"
-    },
-    "done": true
-  },
   "techreborn:recipes/techreborn.item_group/crafting_table/storage_block/ruby_blocks_wall": {
     "criteria": {
       "has_the_recipe": "2023-06-09 02:09:17 -0300"
+    },
+    "done": true
+  },
+  "techreborn:recipes/crafting_table/machine/fluid_replicator": {
+    "criteria": {
+      "has_the_recipe": "2023-06-09 02:09:18 -0300"
     },
     "done": true
   },
@@ -7385,15 +7385,15 @@
     },
     "done": true
   },
-  "create:recipes/create.palettes/tiled_glass_from_glass_colorless_stonecutting": {
-    "criteria": {
-      "has_glass_colorless": "2023-06-09 02:20:11 -0300"
-    },
-    "done": true
-  },
   "techreborn:recipes/techreborn.item_group/crafting_table/storage_block/tin_storage_block": {
     "criteria": {
       "has_the_recipe": "2023-06-09 02:09:17 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/tiled_glass_from_glass_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_colorless": "2023-06-09 02:20:11 -0300"
     },
     "done": true
   },
@@ -7571,15 +7571,15 @@
     },
     "done": true
   },
-  "techreborn:recipes/crafting_table/parts/diamond_saw_blade": {
-    "criteria": {
-      "has_the_recipe": "2023-06-09 02:09:18 -0300"
-    },
-    "done": true
-  },
   "techreborn:recipes/techreborn.item_group/crafting_table/ingot/lead_ingot_from_block": {
     "criteria": {
       "has_the_recipe": "2023-06-09 02:09:17 -0300"
+    },
+    "done": true
+  },
+  "techreborn:recipes/crafting_table/parts/diamond_saw_blade": {
+    "criteria": {
+      "has_the_recipe": "2023-06-09 02:09:18 -0300"
     },
     "done": true
   },
