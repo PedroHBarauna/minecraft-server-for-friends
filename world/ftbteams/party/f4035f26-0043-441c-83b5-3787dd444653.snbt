@@ -5,6 +5,7 @@
 	ranks: {
 		f0b74fe1-c91e-4879-ac8b-b1f3578f2545: "member"
 		c52623a5-728b-43fa-915b-b526935d2d06: "owner"
+		62d67506-02b2-49f1-9d87-fdf7e9d04557: "member"
 		9e9b4db4-4ae6-4383-9a3c-0407fd2f45db: "member"
 		3661be16-8a31-454b-a978-acf3bd92020f: "member"
 		195de06f-89a7-4f8f-b6ae-856e547cf26b: "member"
@@ -35,6 +36,8 @@
 		{ from: "00000000-0000-0000-0000-000000000000", date: 1686279994155L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"SeteLHT\"}]}" }
 		{ from: "00000000-0000-0000-0000-000000000000", date: 1686279997019L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"LilBigCheetos\"}]}" }
 		{ from: "00000000-0000-0000-0000-000000000000", date: 1686280003598L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"PeperoH\"}]}" }
+		{ from: "c52623a5-728b-43fa-915b-b526935d2d06", date: 1686356435099L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"jhrick\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1686356437971L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"jhrick\"}]}" }
 	]
 	extra: { }
 }
