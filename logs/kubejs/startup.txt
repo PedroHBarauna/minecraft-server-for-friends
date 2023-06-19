@@ -1,4 +1,4 @@
-[01:46:04] [INFO ] Loaded script startup_scripts:startup.js in 0.092 s
-[01:46:04] [INFO ] Loaded 1/1 KubeJS startup scripts in 0.37 s
-[01:46:04] [ERR  ] Error occurred while handling event 'item.registry': Wrapped java.lang.IllegalArgumentException: Duplicate key 'createastral:coin' in registry 'minecraft:item'! (startup_scripts:startup.js#459)
-[01:46:08] [ERR  ] Target block state is empty!
+[10:39:28] [INFO ] Loaded script startup_scripts:startup.js in 0.058 s
+[10:39:28] [INFO ] Loaded 1/1 KubeJS startup scripts in 0.296 s
+[10:39:28] [ERR  ] Error occurred while handling event 'item.registry': Wrapped java.lang.IllegalArgumentException: Duplicate key 'createastral:coin' in registry 'minecraft:item'! (startup_scripts:startup.js#459)
+[10:39:33] [ERR  ] Target block state is empty!

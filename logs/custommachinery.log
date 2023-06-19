@@ -1,41 +1,29 @@
-[01:46:12.187][INFO]: Parsing all .json files in machines folder.
-[01:46:12.191][INFO]: Parsing all .json files in upgrades folder.
-[01:46:12.206][INFO]: Finished parsing .json files in machines folder.
-[01:46:12.215][INFO]: Finished parsing .json files in upgrades folder.
-[01:46:15.545][INFO]: Parsing recipe json: createastral:implosion_compressor/gravel
-[01:46:15.547][ERROR]: Error while deserializing Requirement: ""
+[10:39:40.666][INFO]: Parsing all .json files in machines folder.
+[10:39:40.667][INFO]: Parsing all .json files in upgrades folder.
+[10:39:40.682][INFO]: Finished parsing .json files in upgrades folder.
+[10:39:40.734][INFO]: Finished parsing .json files in machines folder.
+[10:39:50.127][INFO]: Parsing recipe json: createastral:implosion_compressor/gravel
+[10:39:50.129][ERROR]: Error while deserializing Requirement: ""
 Input does not contain a key [type]: MapLike[{"keys":{"a":"indrev:frame","b":"createastral:electrum_heating_coil","c":"createastral:sturdy_sheet_block","d":"indrev:controller","e":"indrev:intake"},"pattern":[["aaa","aaa","ama"],["bcb","cbc","bdb"],["ccc","cec","ccc"]]}]
-[01:46:15.550][INFO]: Parsing recipe json: createastral:implosion_compressor/gravel
-[01:46:15.550][ERROR]: Error while deserializing Requirement: ""
+[10:39:50.139][INFO]: Parsing recipe json: createastral:implosion_compressor/gravel
+[10:39:50.140][ERROR]: Error while deserializing Requirement: ""
 Input does not contain a key [type]: MapLike[{"keys":{"a":"indrev:frame","b":"createastral:electrum_heating_coil","c":"createastral:sturdy_sheet_block","d":"indrev:controller","e":"indrev:intake"},"pattern":[["aaa","aaa","ama"],["bcb","cbc","bdb"],["ccc","cec","ccc"]]}]
-[01:46:15.722][INFO]: Parsing recipe json: createastral:electrolyser/oxygen
-[01:46:15.778][INFO]: Successfully read recipe json: createastral:electrolyser/oxygen
-[01:46:15.798][INFO]: Parsing recipe json: createastral:electrolyser/oxygenfallback
-[01:46:15.799][INFO]: Successfully read recipe json: createastral:electrolyser/oxygenfallback
-[01:46:19.086][INFO]: Reading Custom Machinery Machines...
-[01:46:19.088][INFO]: Parsing machine json: createastral:electrolyser in datapack: zLaky Core
-[01:46:19.112][INFO]: Successfully parsed machine json: createastral:electrolyser
-[01:46:19.113][INFO]: Parsing machine json: createastral:implosion_compressor in datapack: zLaky Core
-[01:46:19.114][INFO]: Successfully parsed machine json: createastral:implosion_compressor
-[01:46:19.114][INFO]: Finished creating custom machines.
-[01:46:19.114][INFO]: Reading Custom Machinery Upgrades json
-[01:46:19.115][INFO]: No machine upgrade json found.
-[01:46:19.115][INFO]: Collecting machine upgrades with kubeJS.
-[01:46:19.115][INFO]: No machine upgrades found with kubejs
-[01:46:19.115][INFO]: Finished creating custom machine upgrades.
-[01:46:42.836][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
-[01:46:42.837][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
-[01:46:42.838][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
-[01:46:42.839][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
-[01:46:46.227][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
-[01:46:46.228][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
-[01:46:46.228][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
-[01:46:46.229][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
-[01:59:55.768][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
-[01:59:55.768][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
-[01:59:55.769][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
-[01:59:55.769][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
-[03:11:52.040][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
-[03:11:52.041][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.
-[03:11:52.042][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
-[03:11:52.042][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[10:39:50.281][INFO]: Parsing recipe json: createastral:electrolyser/oxygen
+[10:39:50.314][INFO]: Successfully read recipe json: createastral:electrolyser/oxygen
+[10:39:50.325][INFO]: Parsing recipe json: createastral:electrolyser/oxygenfallback
+[10:39:50.326][INFO]: Successfully read recipe json: createastral:electrolyser/oxygenfallback
+[10:39:52.719][INFO]: Reading Custom Machinery Machines...
+[10:39:52.720][INFO]: Parsing machine json: createastral:electrolyser in datapack: zLaky Core
+[10:39:52.743][INFO]: Successfully parsed machine json: createastral:electrolyser
+[10:39:52.744][INFO]: Parsing machine json: createastral:implosion_compressor in datapack: zLaky Core
+[10:39:52.745][INFO]: Successfully parsed machine json: createastral:implosion_compressor
+[10:39:52.745][INFO]: Finished creating custom machines.
+[10:39:52.745][INFO]: Reading Custom Machinery Upgrades json
+[10:39:52.746][INFO]: No machine upgrade json found.
+[10:39:52.746][INFO]: Collecting machine upgrades with kubeJS.
+[10:39:52.746][INFO]: No machine upgrades found with kubejs
+[10:39:52.746][INFO]: Finished creating custom machine upgrades.
+[10:43:13.837][INFO]: Sending recipe: createastral:electrolyser/oxygenfallback to clients
+[10:43:13.838][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygenfallback to clients.
+[10:43:13.839][INFO]: Sending recipe: createastral:electrolyser/oxygen to clients
+[10:43:13.840][INFO]: Sucessfully send recipe: createastral:electrolyser/oxygen to clients.

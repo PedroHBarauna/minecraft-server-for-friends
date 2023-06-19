@@ -149,9 +149,21 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/polished_cut_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
+    },
+    "done": true
+  },
   "techreborn:recipes/compressor/wood_plate": {
     "criteria": {
       "has_planks": "2023-06-08 23:49:40 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_dripstone_slab_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_dripstone_block": "2023-06-19 10:50:51 -0300"
     },
     "done": true
   },
@@ -224,6 +236,12 @@
   "techreborn:recipes/techreborn.item_group/crafting_table/small_dust/endstone_small_dust_from_dust": {
     "criteria": {
       "has_the_recipe": "2023-06-09 20:43:26 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/layered_dripstone_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_dripstone_block": "2023-06-19 10:50:51 -0300"
     },
     "done": true
   },
@@ -602,6 +620,12 @@
   "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/drain": {
     "criteria": {
       "has_item": "2023-06-09 23:20:02 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
     },
     "done": true
   },
@@ -1435,6 +1459,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/cut_granite_bricks_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/polished_cut_asurine_wall": {
     "criteria": {
       "has_polished_cut_asurine": "2023-06-10 00:02:18 -0300"
@@ -2232,6 +2262,12 @@
   "techreborn:recipes/grinder/saw_small_dust_from_wooden_fences": {
     "criteria": {
       "has_tag_minecraft_wooden_fences": "2023-06-10 00:35:32 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
     },
     "done": true
   },
@@ -3173,6 +3209,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/small_granite_brick_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
+    },
+    "done": true
+  },
   "techreborn:recipes/alloy_smelter/electrum_ingot": {
     "criteria": {
       "has_gold": "2023-06-09 00:31:21 -0300"
@@ -3206,6 +3248,12 @@
   "techreborn:recipes/techreborn.item_group/crafting_table/storage_block/advanced_alloy_blocks_wall": {
     "criteria": {
       "has_the_recipe": "2023-06-09 20:43:26 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/granite_pillar_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
     },
     "done": true
   },
@@ -3369,6 +3417,12 @@
   "techreborn:recipes/techreborn.item_group/crafting_table/small_dust/peridot_small_dust_from_dust": {
     "criteria": {
       "has_the_recipe": "2023-06-09 20:43:26 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_granite_brick_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
     },
     "done": true
   },
@@ -3579,6 +3633,12 @@
   "mcdw:recipes/swords/sword_masters_katana": {
     "criteria": {
       "has_diamond": "2023-06-09 00:14:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
     },
     "done": true
   },
@@ -3852,6 +3912,12 @@
   "techreborn:recipes/techreborn.item_group/crafting_table/storage_block/sapphire_blocks_wall": {
     "criteria": {
       "has_the_recipe": "2023-06-09 20:43:26 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_dripstone_wall_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_dripstone_block": "2023-06-19 10:50:51 -0300"
     },
     "done": true
   },
@@ -4258,6 +4324,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/small_dripstone_bricks_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_dripstone_block": "2023-06-19 10:50:51 -0300"
+    },
+    "done": true
+  },
   "techreborn:tree_tap": {
     "criteria": {
       "crit1": "2023-06-09 02:08:33 -0300"
@@ -4402,6 +4474,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
+    },
+    "done": true
+  },
   "techreborn:recipes/centrifuge/glowstone_dust": {
     "criteria": {
       "has_glowstone_dust": "2023-06-09 01:03:25 -0300"
@@ -4411,6 +4489,18 @@
   "vinery:red_grape_crate": {
     "criteria": {
       "has_red_grape": "2023-06-09 02:09:07 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_dripstone_stairs_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_dripstone_block": "2023-06-19 10:50:51 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_dripstone_brick_slab_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_dripstone_block": "2023-06-19 10:50:51 -0300"
     },
     "done": true
   },
@@ -4612,6 +4702,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/dripstone_pillar_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_dripstone_block": "2023-06-19 10:50:51 -0300"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/mechanical_pump": {
     "criteria": {
       "has_item": "2023-06-09 00:05:17 -0300"
@@ -4757,6 +4853,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/cut_dripstone_brick_slab_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_dripstone_block": "2023-06-19 10:50:51 -0300"
+    },
+    "done": true
+  },
   "techreborn:recipes/techreborn.item_group/crafting_table/tool/ruby_spade": {
     "criteria": {
       "has_the_recipe": "2023-06-09 20:43:26 -0300"
@@ -4784,6 +4886,12 @@
   "minecraft:recipes/building_blocks/deepslate": {
     "criteria": {
       "has_cobbled_deepslate": "2023-06-09 21:13:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
     },
     "done": true
   },
@@ -4889,6 +4997,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/polished_cut_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_stained_glass": {
     "criteria": {
       "has_glass": "2023-06-09 20:33:44 -0300"
@@ -4958,6 +5072,7 @@
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
       "cabbage": "2023-06-10 01:06:26 -0300",
+      "onion": "2023-06-19 11:18:33 -0300",
       "tomato": "2023-06-09 01:09:24 -0300",
       "beetroot": "2023-06-09 01:09:17 -0300",
       "sugar_cane": "2023-06-10 00:47:21 -0300",
@@ -5232,6 +5347,12 @@
   "techreborn:recipes/crafting_table/cell": {
     "criteria": {
       "has_tin_ingot": "2023-06-09 00:23:29 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
     },
     "done": true
   },
@@ -6263,6 +6384,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/polished_cut_dripstone_stairs_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_dripstone_block": "2023-06-19 10:50:51 -0300"
+    },
+    "done": true
+  },
   "techreborn:recipes/chemical_reactor/purple_wool_from_blue_wool_with_magenta_dye": {
     "criteria": {
       "has_magenta_dye": "2023-06-09 20:27:44 -0300"
@@ -6284,6 +6411,12 @@
   "create:recipes/create.palettes/small_tuff_brick_stairs_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2023-06-09 21:16:16 -0300"
+    },
+    "done": true
+  },
+  "techreborn:recipes/grinder/granite_dust": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
     },
     "done": true
   },
@@ -6347,9 +6480,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
+    },
+    "done": true
+  },
   "techreborn:recipes/techreborn.item_group/crafting_table/armor/bronze_leggings": {
     "criteria": {
       "has_tag_c_bronze_ingots": "2023-06-09 01:25:28 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_granite_bricks_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
     },
     "done": true
   },
@@ -6486,6 +6637,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/cut_granite_brick_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/millstone": {
     "criteria": {
       "has_item": "2023-06-09 01:29:10 -0300"
@@ -6507,6 +6664,12 @@
   "minecraft:recipes/building_blocks/raw_gold_block": {
     "criteria": {
       "has_raw_gold": "2023-06-09 21:20:19 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_granite_brick_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
     },
     "done": true
   },
@@ -6540,6 +6703,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/small_granite_brick_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/polished_cut_andesite_wall_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2023-06-09 01:01:19 -0300"
@@ -6555,6 +6724,12 @@
   "create:recipes/create.base/crafting/appliances/tree_fertilizer": {
     "criteria": {
       "has_item": "2023-06-09 21:46:52 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
     },
     "done": true
   },
@@ -7222,6 +7397,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/cut_dripstone_bricks_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_dripstone_block": "2023-06-19 10:50:51 -0300"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/cut_asurine_wall_from_stone_types_asurine_stonecutting": {
     "criteria": {
       "has_stone_types_asurine": "2023-06-10 00:02:18 -0300"
@@ -7231,6 +7412,12 @@
   "techreborn:recipes/techreborn.item_group/crafting_table/armor/bronze_boots": {
     "criteria": {
       "has_tag_c_bronze_ingots": "2023-06-09 01:25:28 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
     },
     "done": true
   },
@@ -7429,6 +7616,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
+    },
+    "done": true
+  },
   "lootr:10loot": {
     "criteria": {
       "loot_stat": "2023-06-09 21:28:23 -0300"
@@ -7528,6 +7721,12 @@
   "campanion:recipes/tools/rope_bridge_post": {
     "criteria": {
       "has_rope": "2023-06-09 00:45:11 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/layered_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
     },
     "done": true
   },
@@ -7703,6 +7902,12 @@
   "techreborn:recipes/techreborn.item_group/crafting_table/tool/sapphire_hoe": {
     "criteria": {
       "has_the_recipe": "2023-06-09 20:43:26 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_dripstone_wall_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_dripstone_block": "2023-06-19 10:50:51 -0300"
     },
     "done": true
   },
@@ -7928,6 +8133,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/cut_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
+    },
+    "done": true
+  },
   "mcdw:recipes/crossbows/crossbow_dual": {
     "criteria": {
       "has_stick": "2023-06-08 23:50:29 -0300"
@@ -7937,6 +8148,12 @@
   "techreborn:recipes/chemical_reactor/pink_carpet_from_light_gray_concrete_powder_with_magenta_dye": {
     "criteria": {
       "has_magenta_dye": "2023-06-09 20:27:44 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_dripstone_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_dripstone_block": "2023-06-19 10:50:51 -0300"
     },
     "done": true
   },
@@ -8223,6 +8440,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
+    },
+    "done": true
+  },
   "techreborn:recipes/techreborn.item_group/crafting_table/dust/sphalerite_dust_from_small": {
     "criteria": {
       "has_the_recipe": "2023-06-09 20:43:26 -0300"
@@ -8464,6 +8687,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/polished_cut_dripstone_slab_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_dripstone_block": "2023-06-19 10:50:51 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2023-06-09 00:31:21 -0300"
@@ -8479,6 +8708,12 @@
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2023-06-08 23:50:30 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_dripstone_brick_wall_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_dripstone_block": "2023-06-19 10:50:51 -0300"
     },
     "done": true
   },
@@ -9595,8 +9830,10 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:birch_forest": "2023-06-09 21:25:51 -0300",
+      "minecraft:beach": "2023-06-19 11:01:43 -0300",
       "minecraft:dark_forest": "2023-06-09 21:29:26 -0300",
       "minecraft:river": "2023-06-09 00:27:01 -0300",
+      "minecraft:lukewarm_ocean": "2023-06-19 11:02:08 -0300",
       "minecraft:forest": "2023-06-08 23:48:47 -0300",
       "minecraft:old_growth_birch_forest": "2023-06-09 21:23:50 -0300",
       "minecraft:savanna": "2023-06-09 02:10:40 -0300"
@@ -9738,6 +9975,12 @@
   "techreborn:recipes/techreborn.item_group/crafting_table/tool/peridot_pickaxe": {
     "criteria": {
       "has_the_recipe": "2023-06-09 20:43:26 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_dripstone_brick_stairs_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_dripstone_block": "2023-06-19 10:50:51 -0300"
     },
     "done": true
   },
@@ -10006,6 +10249,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/small_granite_brick_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
+    },
+    "done": true
+  },
   "techreborn:recipes/techreborn.item_group/crafting_table/small_dust/spessartine_small_dust_from_dust": {
     "criteria": {
       "has_the_recipe": "2023-06-09 20:43:26 -0300"
@@ -10204,6 +10453,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/cut_granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
+    },
+    "done": true
+  },
   "techreborn:recipes/crafting_table/unit/storage/crude_storage_unit": {
     "criteria": {
       "has_barrel": "2023-06-09 00:28:12 -0300"
@@ -10291,6 +10546,12 @@
   "createdeco:recipes/createdeco.bricks/cracked_red_bricks_slab_vert_from_bricks_stonecutting": {
     "criteria": {
       "has_bricks": "2023-06-09 22:07:52 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
     },
     "done": true
   },
@@ -10495,6 +10756,12 @@
   "techreborn:recipes/crafting_table/cable/insulated_hv_cable_shapeless": {
     "criteria": {
       "has_rubber": "2023-06-09 02:16:02 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-06-19 10:50:27 -0300"
     },
     "done": true
   },
@@ -10828,6 +11095,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/small_dripstone_brick_wall_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_dripstone_block": "2023-06-19 10:50:51 -0300"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/fuel_tank": {
     "criteria": {
       "has_item": "2023-06-09 23:20:02 -0300"
@@ -10948,6 +11221,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/polished_cut_dripstone_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_dripstone_block": "2023-06-19 10:50:51 -0300"
+    },
+    "done": true
+  },
   "techreborn:recipes/centrifuge/grass_block": {
     "criteria": {
       "has_grass_block": "2023-06-09 01:04:28 -0300"
@@ -11017,6 +11296,12 @@
   "techreborn:recipes/chemical_reactor/blue_carpet_from_white_carpet_with_blue_dye": {
     "criteria": {
       "has_blue_dye": "2023-06-10 01:50:51 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_dripstone_brick_stairs_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_dripstone_block": "2023-06-19 10:50:51 -0300"
     },
     "done": true
   },
